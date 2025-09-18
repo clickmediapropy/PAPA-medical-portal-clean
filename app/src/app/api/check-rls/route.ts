@@ -20,7 +20,7 @@ export async function GET() {
 
   return NextResponse.json({
     policies: policies || 'No policies info available',
-    policiesError: policiesError?.message || null,
+    policiesError: null,
     canAccessTable: !testError,
     testError: testError?.message || null,
     hasData: !!testData?.length
