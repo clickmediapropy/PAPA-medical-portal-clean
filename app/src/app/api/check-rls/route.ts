@@ -7,7 +7,7 @@ export async function GET() {
   // Check RLS policies on lab_results table
   // Note: check_policies RPC doesn't exist, commenting out
   const policies = null;
-  const error: { message?: string } | null = null;
+  const policiesError: { message?: string } | null = null;
   // const { data: policies, error } = await supabase
   //   .rpc('check_policies', { table_name: 'lab_results' })
   //   .single();
@@ -20,7 +20,7 @@ export async function GET() {
 
   return NextResponse.json({
     policies: policies || 'No policies info available',
-    policiesError: error?.message || null,
+    policiesError: policiesError?.message || null,
     canAccessTable: !testError,
     testError: testError?.message || null,
     hasData: !!testData?.length

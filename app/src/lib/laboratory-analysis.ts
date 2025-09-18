@@ -75,8 +75,7 @@ export function analyzeTrend(results: LabResult[]): TrendAnalysis {
   const summary = generateSummary(
     validResults[validResults.length - 1],
     trend,
-    percentageOutOfRange,
-    changeFromPrevious
+    percentageOutOfRange
   );
 
   return {
@@ -210,8 +209,7 @@ function generateInsights(
 function generateSummary(
   lastResult: LabResult,
   trend: string,
-  percentageOutOfRange: number,
-  changeFromPrevious: number | null
+  percentageOutOfRange: number
 ): string {
   let summary = '';
 
