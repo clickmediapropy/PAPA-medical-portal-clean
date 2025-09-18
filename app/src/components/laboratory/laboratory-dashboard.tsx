@@ -68,12 +68,12 @@ export function LaboratoryDashboard({ patientId }: LaboratoryDashboardProps) {
     return is_critical ? 'text-red-600 bg-red-50' : 'text-green-600 bg-green-50';
   };
 
-  const formatReferenceRange = (min?: number, max?: number) => {
-    if (min !== undefined && max !== undefined) {
+  const formatReferenceRange = (min?: number | null, max?: number | null) => {
+    if (min !== undefined && min !== null && max !== undefined && max !== null) {
       return `${min} - ${max}`;
-    } else if (min !== undefined) {
+    } else if (min !== undefined && min !== null) {
       return `≥ ${min}`;
-    } else if (max !== undefined) {
+    } else if (max !== undefined && max !== null) {
       return `≤ ${max}`;
     }
     return '-';
