@@ -69,7 +69,6 @@ export function analyzeTrend(results: LabResult[]): TrendAnalysis {
     lastValue,
     averageValue,
     percentageOutOfRange,
-    changeFromPrevious,
     trend
   );
 

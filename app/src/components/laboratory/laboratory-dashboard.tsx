@@ -22,7 +22,7 @@ export function LaboratoryDashboard({ patientId }: LaboratoryDashboardProps) {
   const [searchTerm, setSearchTerm] = useState('');
   const [dateFilter, setDateFilter] = useState('');
   const [showTrends, setShowTrends] = useState(true);
-  const [expandedCards, setExpandedCards] = useState<Set<string>>(new Set());
+  const [expandedCards] = useState<Set<string>>(new Set());
 
   useEffect(() => {
     const fetchResults = async () => {
@@ -89,8 +89,8 @@ export function LaboratoryDashboard({ patientId }: LaboratoryDashboardProps) {
 
   const groupedResults = groupResultsByTest(results);
   const testsWithMultipleResults = Array.from(groupedResults.entries())
-    .filter(([_, results]) => results.length >= 2)
-    .sort(([nameA, resultsA], [nameB, resultsB]) => {
+    .filter(([, results]) => results.length >= 2)
+    .sort(([, resultsA], [, resultsB]) => {
       const latestA = resultsA[resultsA.length - 1].is_critical ? 0 : 1;
       const latestB = resultsB[resultsB.length - 1].is_critical ? 0 : 1;
       if (latestA !== latestB) return latestA - latestB;

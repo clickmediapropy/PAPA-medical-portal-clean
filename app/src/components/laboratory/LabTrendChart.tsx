@@ -8,11 +8,9 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend,
   ResponsiveContainer,
   ReferenceLine,
-  ReferenceArea,
-  Dot
+  ReferenceArea
 } from 'recharts';
 import { format } from 'date-fns';
 import { es } from 'date-fns/locale';
@@ -48,7 +46,7 @@ export function LabTrendChart({
   const minValue = Math.min(...validValues);
   const maxValue = Math.max(...validValues);
 
-  let yDomain: [number, number] = [minValue * 0.9, maxValue * 1.1];
+  const yDomain: [number, number] = [minValue * 0.9, maxValue * 1.1];
 
   if (referenceMin !== null && referenceMin !== undefined) {
     yDomain[0] = Math.min(yDomain[0], referenceMin * 0.9);
@@ -57,7 +55,11 @@ export function LabTrendChart({
     yDomain[1] = Math.max(yDomain[1], referenceMax * 1.1);
   }
 
-  const CustomTooltip = ({ active, payload, label }: any) => {
+  const CustomTooltip = ({ active, payload }: {
+    active?: boolean;
+    payload?: Array<{ value: number; payload: DataPoint & { fullDate: string } }>;
+    label?: string;
+  }) => {
     if (active && payload && payload[0]) {
       const data = payload[0].payload;
       return (
@@ -75,7 +77,11 @@ export function LabTrendChart({
     return null;
   };
 
-  const CustomDot = (props: any) => {
+  const CustomDot = (props: {
+    cx: number;
+    cy: number;
+    payload: DataPoint;
+  }) => {
     const { cx, cy, payload } = props;
     if (payload.is_critical) {
       return (
