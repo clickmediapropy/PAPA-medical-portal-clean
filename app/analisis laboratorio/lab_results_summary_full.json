@@ -1,0 +1,600 @@
+{
+  "total_tests": 563,
+  "abnormal_count": 208,
+  "categories": {
+    "Vital Signs": {
+      "total": 3,
+      "abnormal": 0
+    },
+    "Blood Chemistry": {
+      "total": 228,
+      "abnormal": 88
+    },
+    "Semen Analysis": {
+      "total": 1,
+      "abnormal": 1
+    },
+    "Urinalysis": {
+      "total": 110,
+      "abnormal": 28
+    },
+    "Oncology Markers": {
+      "total": 10,
+      "abnormal": 1
+    },
+    "Infectious Disease": {
+      "total": 26,
+      "abnormal": 8
+    },
+    "Coagulation Studies": {
+      "total": 16,
+      "abnormal": 5
+    },
+    "Hormonal Studies": {
+      "total": 18,
+      "abnormal": 15
+    },
+    "Complete Blood Count": {
+      "total": 151,
+      "abnormal": 62
+    }
+  },
+  "biomarkers": {
+    "Altura": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Peso, promedio": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Índice de masa corporal (IMC)": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Alanina aminotransferasa": {
+      "count": 8,
+      "abnormal": 0
+    },
+    "Albúmina suero": {
+      "count": 4,
+      "abnormal": 0
+    },
+    "Aspartato amino transferasa": {
+      "count": 8,
+      "abnormal": 0
+    },
+    "Base excess": {
+      "count": 2,
+      "abnormal": 2
+    },
+    "Bicarbonate, serum": {
+      "count": 4,
+      "abnormal": 3
+    },
+    "Bilirrubina directa": {
+      "count": 8,
+      "abnormal": 0
+    },
+    "Bilirrubina indirecta": {
+      "count": 5,
+      "abnormal": 0
+    },
+    "Bilirubina total": {
+      "count": 6,
+      "abnormal": 1
+    },
+    "Calcio ionizado": {
+      "count": 1,
+      "abnormal": 1
+    },
+    "Calcio suero": {
+      "count": 11,
+      "abnormal": 8
+    },
+    "Cloro suero": {
+      "count": 8,
+      "abnormal": 3
+    },
+    "Colesterol HDL": {
+      "count": 7,
+      "abnormal": 0
+    },
+    "Colesterol LDL": {
+      "count": 7,
+      "abnormal": 1
+    },
+    "Colesterol no HDL": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Colesterol total": {
+      "count": 8,
+      "abnormal": 0
+    },
+    "Colesterol VLDL": {
+      "count": 7,
+      "abnormal": 0
+    },
+    "Creatina quinasa MB (CK-MB)": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Creatinfosfoquinasa (CK o CPK)": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Creatinina suero": {
+      "count": 12,
+      "abnormal": 11
+    },
+    "Ferritina": {
+      "count": 4,
+      "abnormal": 0
+    },
+    "Fosfatasa alcalina": {
+      "count": 8,
+      "abnormal": 0
+    },
+    "Fosfato suero": {
+      "count": 10,
+      "abnormal": 10
+    },
+    "Gamma glutamil transferasa (GGT)": {
+      "count": 8,
+      "abnormal": 0
+    },
+    "Globulina": {
+      "count": 1,
+      "abnormal": 1
+    },
+    "Glucosa": {
+      "count": 9,
+      "abnormal": 3
+    },
+    "Glucosa media estimada": {
+      "count": 1,
+      "abnormal": 1
+    },
+    "Hemoglobina A1c": {
+      "count": 3,
+      "abnormal": 2
+    },
+    "Hierro suero": {
+      "count": 2,
+      "abnormal": 2
+    },
+    "LDH (Lactato deshidrogenasa)": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Magnesio": {
+      "count": 7,
+      "abnormal": 7
+    },
+    "Oxygen saturation (SO2), blood": {
+      "count": 3,
+      "abnormal": 3
+    },
+    "PaCO2": {
+      "count": 4,
+      "abnormal": 3
+    },
+    "paO2": {
+      "count": 3,
+      "abnormal": 3
+    },
+    "pH, blood": {
+      "count": 3,
+      "abnormal": 1
+    },
+    "Potasio suero": {
+      "count": 7,
+      "abnormal": 2
+    },
+    "Prealbumin, serum": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Proteína C reactiva": {
+      "count": 5,
+      "abnormal": 2
+    },
+    "Proteínas totales suero": {
+      "count": 3,
+      "abnormal": 3
+    },
+    "Relación Albúmina/Globulina": {
+      "count": 1,
+      "abnormal": 1
+    },
+    "Sodio suero": {
+      "count": 8,
+      "abnormal": 0
+    },
+    "Transferrina": {
+      "count": 2,
+      "abnormal": 2
+    },
+    "Triglicéridos": {
+      "count": 8,
+      "abnormal": 0
+    },
+    "Urea suero": {
+      "count": 10,
+      "abnormal": 10
+    },
+    "Ácido úrico suero": {
+      "count": 5,
+      "abnormal": 0
+    },
+    "Índice de saturación de transferrina": {
+      "count": 2,
+      "abnormal": 2
+    },
+    "Concentración espermatozoides": {
+      "count": 1,
+      "abnormal": 1
+    },
+    "Bilirrubina en orina": {
+      "count": 4,
+      "abnormal": 4
+    },
+    "Bilirrubina orina cualitativo": {
+      "count": 8,
+      "abnormal": 0
+    },
+    "Cuepros cetonicos en orina": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Cuepros cetónicos orina cualitativo": {
+      "count": 8,
+      "abnormal": 0
+    },
+    "Células epiteliales en orina": {
+      "count": 6,
+      "abnormal": 0
+    },
+    "Células epiteliales orina cualitativo": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Densidad orina": {
+      "count": 8,
+      "abnormal": 2
+    },
+    "Epithelial cells, urine": {
+      "count": 3,
+      "abnormal": 0
+    },
+    "Eritrocitos en orina": {
+      "count": 6,
+      "abnormal": 3
+    },
+    "Eritrocitos en orina por campo": {
+      "count": 1,
+      "abnormal": 1
+    },
+    "Esterasa leucocitaria en orina cualitativo": {
+      "count": 7,
+      "abnormal": 1
+    },
+    "Glucosa orina cualitativo": {
+      "count": 3,
+      "abnormal": 0
+    },
+    "Glucosa, orina": {
+      "count": 5,
+      "abnormal": 3
+    },
+    "Hemoglobina en orina cualitativo": {
+      "count": 5,
+      "abnormal": 0
+    },
+    "Leucocitos orina": {
+      "count": 6,
+      "abnormal": 1
+    },
+    "Leucocitos orina por campo": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Leukocyte esterase, urine": {
+      "count": 1,
+      "abnormal": 1
+    },
+    "Nitritos orina cualitativo": {
+      "count": 8,
+      "abnormal": 1
+    },
+    "Non-fermentative Gram(-) bacteria, urine qualitative": {
+      "count": 1,
+      "abnormal": 1
+    },
+    "pH orina": {
+      "count": 6,
+      "abnormal": 2
+    },
+    "Proteínas orina": {
+      "count": 8,
+      "abnormal": 6
+    },
+    "Proteínas orina cualitativo": {
+      "count": 3,
+      "abnormal": 1
+    },
+    "Sangre en orina cualitativo": {
+      "count": 2,
+      "abnormal": 0
+    },
+    "Urobilina orina cualitativo": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Urobilinógeno orina": {
+      "count": 7,
+      "abnormal": 1
+    },
+    "Antigeno Ca 125": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Antigeno Ca 15.3": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Antigeno Ca 19.9": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Antígeno Carcinoembrionario (ACE)": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Antígeno prostático específico libre": {
+      "count": 2,
+      "abnormal": 0
+    },
+    "Antígeno Prostático específico total": {
+      "count": 3,
+      "abnormal": 0
+    },
+    "B2M, serum": {
+      "count": 1,
+      "abnormal": 1
+    },
+    "Antibodies Leishmania spp. IgG, qualitative": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Antibodies to Herpes Simplex Virus 1, IgG": {
+      "count": 1,
+      "abnormal": 1
+    },
+    "Antibodies to Herpes Simplex Virus 1/2, IgG qualitative": {
+      "count": 1,
+      "abnormal": 1
+    },
+    "Antibodies to Herpes Simplex Virus 2, IgG": {
+      "count": 1,
+      "abnormal": 1
+    },
+    "Anticuerpos anti-Citomegalovirus IgM cualitativo": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Anticuerpos anti-Citomegalovirus IgM índice": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Anticuerpos anti-Rubeola IgG": {
+      "count": 1,
+      "abnormal": 1
+    },
+    "Anticuerpos anti-Rubeola IgM cualitativo": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Anticuerpos anti-Toxoplasma gondii IgG": {
+      "count": 2,
+      "abnormal": 2
+    },
+    "Anticuerpos anti-Toxoplasma gondii IgM cualitativo": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Anticuerpos anti-Treponema pallidum totales cualitativo": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Anticuerpos anti-Virus Hepatitis C total cualitativo": {
+      "count": 2,
+      "abnormal": 0
+    },
+    "Antígeno de superficie virus Hepatitis B cualitativo": {
+      "count": 2,
+      "abnormal": 0
+    },
+    "Cytomegalovirus IgG Ab, positivity coefficient": {
+      "count": 1,
+      "abnormal": 1
+    },
+    "Dengue Virus IgG Ab, qualitative": {
+      "count": 1,
+      "abnormal": 1
+    },
+    "Dengue Virus IgM Ab, qualitative": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Hepatitis B Core Ag IgG+IgM Ab, qualitative": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Hepatitis B Core Ag IgM Ab, qualitative": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Hepatitis B Surface Ag IgG+IgM Ab": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Rubella virus IgM Ab, positivity coefficient": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Toxoplasma gondii IgM Ab, Signal/Cutoff": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "VIH 1+2 Ab VIH1 Antígeno p24 cualitativo": {
+      "count": 2,
+      "abnormal": 0
+    },
+    "Dímero D": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Fibrinógeno": {
+      "count": 3,
+      "abnormal": 2
+    },
+    "Indice de Quick": {
+      "count": 3,
+      "abnormal": 0
+    },
+    "INR (Ratio internacional normalizado)": {
+      "count": 3,
+      "abnormal": 0
+    },
+    "TP (Tiempo de Protrombina)": {
+      "count": 3,
+      "abnormal": 3
+    },
+    "TTPa (Tiempo de tromboplastina parcial activado)": {
+      "count": 3,
+      "abnormal": 0
+    },
+    "Alfa-Fetoproteina suero": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "PTH (Paratohormona)": {
+      "count": 5,
+      "abnormal": 5
+    },
+    "T3 total (Triiodotironina)": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Tirotropina": {
+      "count": 4,
+      "abnormal": 4
+    },
+    "Tiroxina libre (T4 libre)": {
+      "count": 4,
+      "abnormal": 4
+    },
+    "Tiroxina total (T4T)": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Triiodotironina libre": {
+      "count": 2,
+      "abnormal": 2
+    },
+    "Ancho de Distribución Eritrocitaria (ADE) %": {
+      "count": 7,
+      "abnormal": 5
+    },
+    "Anisocitosis cualitativo": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Basófilos %": {
+      "count": 1,
+      "abnormal": 1
+    },
+    "Blastos": {
+      "count": 1,
+      "abnormal": 1
+    },
+    "Concentración de Hemoglobina Corpuscular Media (CHCM)": {
+      "count": 7,
+      "abnormal": 4
+    },
+    "Eosinófilos": {
+      "count": 7,
+      "abnormal": 5
+    },
+    "Eosinófilos %": {
+      "count": 8,
+      "abnormal": 6
+    },
+    "Eritrocitos": {
+      "count": 8,
+      "abnormal": 7
+    },
+    "Hematocrito": {
+      "count": 8,
+      "abnormal": 6
+    },
+    "Hemoglobina": {
+      "count": 12,
+      "abnormal": 11
+    },
+    "Hemoglobina Corpuscular Media (HCM)": {
+      "count": 8,
+      "abnormal": 0
+    },
+    "Leucocitos": {
+      "count": 8,
+      "abnormal": 3
+    },
+    "Linfocitos": {
+      "count": 9,
+      "abnormal": 3
+    },
+    "Linfocitos %": {
+      "count": 8,
+      "abnormal": 0
+    },
+    "Monocitos": {
+      "count": 8,
+      "abnormal": 1
+    },
+    "Monocitos %": {
+      "count": 8,
+      "abnormal": 1
+    },
+    "Neutrófilos segmentados": {
+      "count": 9,
+      "abnormal": 3
+    },
+    "Neutrófilos segmentados %": {
+      "count": 8,
+      "abnormal": 2
+    },
+    "Plaquetas": {
+      "count": 9,
+      "abnormal": 0
+    },
+    "Reticulocitos %": {
+      "count": 1,
+      "abnormal": 0
+    },
+    "Velocidad de sedimentación eritrocitaria (VSG) 1 hora": {
+      "count": 8,
+      "abnormal": 2
+    },
+    "Volumen corpuscular medio (VCM)": {
+      "count": 6,
+      "abnormal": 1
+    },
+    "Volumen Medio Plaquetario (VPM)": {
+      "count": 1,
+      "abnormal": 0
+    }
+  }
+}

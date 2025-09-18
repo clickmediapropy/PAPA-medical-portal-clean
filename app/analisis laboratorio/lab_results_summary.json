@@ -1,0 +1,36 @@
+{
+  "total_tests": 45,
+  "abnormal_tests": 20,
+  "normal_tests": 25,
+  "categories": {
+    "Vital Signs": {
+      "total": 3,
+      "abnormal": 0,
+      "unique_biomarkers": 3
+    },
+    "Blood Chemistry": {
+      "total": 25,
+      "abnormal": 10,
+      "unique_biomarkers": 24
+    },
+    "Urinalysis": {
+      "total": 7,
+      "abnormal": 5,
+      "unique_biomarkers": 7
+    },
+    "Hormonal Studies": {
+      "total": 4,
+      "abnormal": 3,
+      "unique_biomarkers": 4
+    },
+    "Complete Blood Count": {
+      "total": 6,
+      "abnormal": 2,
+      "unique_biomarkers": 6
+    }
+  },
+  "date_range": {
+    "earliest": "2024-10-06",
+    "latest": "2025-09-16"
+  }
+}

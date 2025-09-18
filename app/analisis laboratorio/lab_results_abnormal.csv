@@ -1,0 +1,21 @@
+Category,Biomarker,Date,Result,Ref_Min,Ref_Max,Units,Status
+Blood Chemistry,Base excess,07.06.2025,-4.1,-2.7,2.5,mEq/L,Abnormal
+Blood Chemistry,"Bicarbonate, serum",07.06.2025,21.5,22.0,29.0,mEq/L,Abnormal
+Blood Chemistry,Bilirubina total,06.10.2024,32,0.0,1.2,mg/dL,Abnormal
+Blood Chemistry,Calcio suero,16.09.2025,11.5,8.8,10.2,mg/dL,Abnormal
+Blood Chemistry,Colesterol LDL,06.09.2025,103,0.0,99.99,mg/dL,Abnormal
+Blood Chemistry,Creatinina suero,16.09.2025,10.5,0.7,1.25,mg/dL,Abnormal
+Blood Chemistry,Fosfato suero,16.09.2025,5.2,2.5,4.5,mg/dL,Abnormal
+Blood Chemistry,Hemoglobina A1c,06.09.2025,4.3,4.8,5.6,%,Abnormal
+Blood Chemistry,Magnesio,06.09.2025,2.5,1.7,2.3,mg/dL,Abnormal
+Blood Chemistry,Urea suero,06.09.2025,126,18.02,55.26,mg/dL,Abnormal
+Urinalysis,Bilirrubina en orina,30.06.2025,0.3,0.0,0.0,mg/dL,Abnormal
+Urinalysis,Eritrocitos en orina,30.06.2025,46.64,0.0,17.0,units/mcL,Abnormal
+Urinalysis,"Glucosa, orina",06.09.2025,100,0.0,14.41,mg/dL,Abnormal
+Urinalysis,Leucocitos orina,07.06.2025,16,0.0,11.0,units/mcL,Abnormal
+Urinalysis,Proteínas orina,06.09.2025,300,0.0,14.0,mg/dL,Abnormal
+Hormonal Studies,PTH (Paratohormona),16.09.2025,200.34,15.0,65.0,pg/mL,Abnormal
+Hormonal Studies,Tirotropina,16.09.2025,64100,0.3,4.2,mcIU/mL,Abnormal
+Hormonal Studies,Tiroxina libre (T4 libre),16.09.2025,0.83,0.9,1.7,ng/dl,Abnormal
+Complete Blood Count,Hemoglobina,16.09.2025,11,13.2,16.6,g/dL,Abnormal
+Complete Blood Count,Neutrófilos segmentados %,06.09.2025,64,40.0,60.0,%,Abnormal
