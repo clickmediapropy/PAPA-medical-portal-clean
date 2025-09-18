@@ -169,7 +169,7 @@ export function LabTrendChart({
             dataKey="value"
             stroke="#3b82f6"
             strokeWidth={2}
-            dot={<CustomDot />}
+            dot={(props) => <CustomDot {...props} />}
             activeDot={{ r: 8 }}
             connectNulls
           />
