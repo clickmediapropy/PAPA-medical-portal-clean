@@ -186,7 +186,7 @@ export function BiomarkerChart({ biomarker, height = 300 }: BiomarkerChartProps)
             stroke="#3b82f6"
             strokeWidth={2}
             dot={(props) => {
-              const { key, ...restProps } = props as Record<string, unknown>;
+              const { key, ...restProps } = props as unknown as Record<string, unknown>;
               return <CustomDot key={key as string} {...(restProps as { cx: number; cy: number; payload: { isAbnormal: boolean } })} />;
             }}
             activeDot={{ r: 6 }}

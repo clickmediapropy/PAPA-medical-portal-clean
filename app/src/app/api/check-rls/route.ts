@@ -7,7 +7,6 @@ export async function GET() {
   // Check RLS policies on lab_results table
   // Note: check_policies RPC doesn't exist, commenting out
   const policies = null;
-  const policiesError: { message?: string } | null = null;
   // const { data: policies, error } = await supabase
   //   .rpc('check_policies', { table_name: 'lab_results' })
   //   .single();
