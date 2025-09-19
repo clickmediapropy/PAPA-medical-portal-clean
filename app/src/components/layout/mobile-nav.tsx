@@ -5,14 +5,9 @@ import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
 
 const navItems = [
-  { href: '/dashboard', label: 'Resumen' },
-  { href: '/patients', label: 'Pacientes' },
-  { href: '/laboratory', label: 'Laboratorio' },
   { href: '/biomarkers', label: 'Biomarcadores' },
   { href: '/care-plan', label: 'Plan de Cuidados' },
   { href: '/timeline', label: 'Cronología' },
-  { href: '/medications', label: 'Medicaciones' },
-  { href: '/upload', label: 'Subir documento' },
 ];
 
 export function MobileNav() {

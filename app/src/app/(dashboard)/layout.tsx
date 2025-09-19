@@ -3,13 +3,9 @@ import type { ReactNode } from 'react';
 import { MobileNav } from '@/components/layout/mobile-nav';
 
 const navItems = [
-  { href: '/dashboard', label: 'Resumen' },
-  { href: '/laboratory', label: 'Laboratorio' },
   { href: '/biomarkers', label: 'Biomarcadores' },
   { href: '/care-plan', label: 'Plan de Cuidados' },
   { href: '/timeline', label: 'Cronología' },
-  { href: '/medications', label: 'Medicaciones' },
-  { href: '/upload', label: 'Subir documento' },
 ];
 
 type DashboardLayoutProps = {
@@ -33,7 +29,7 @@ export default async function DashboardLayout({ children }: DashboardLayoutProps
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-4">
             <MobileNav />
-            <Link href="/dashboard" className="text-base sm:text-lg font-semibold text-slate-900">
+            <Link href="/biomarkers" className="text-base sm:text-lg font-semibold text-slate-900">
               Portal Médico v2
             </Link>
           </div>
