@@ -24,18 +24,12 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const publishableKey = process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY;
-  if (!publishableKey) {
-    throw new Error('Missing NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY environment variable');
-  }
-
+  // Temporarily disable Clerk to test dev server
   return (
     <html lang="es">
-      <ClerkProvider publishableKey={publishableKey} afterSignOutUrl="/login">
-        <body className={`${geistSans.variable} ${geistMono.variable} bg-slate-50 font-sans antialiased`}>
-          {children}
-        </body>
-      </ClerkProvider>
+      <body className={`${geistSans.variable} ${geistMono.variable} bg-slate-50 font-sans antialiased`}>
+        {children}
+      </body>
     </html>
   );
 }
