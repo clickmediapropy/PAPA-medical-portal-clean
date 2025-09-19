@@ -215,7 +215,12 @@ export default async function DashboardPage() {
               id: event.id,
               title: event.title,
               subtitle: event.event_date
-                ? new Date(event.event_date).toLocaleDateString('es-ES')
+                ? new Date(event.event_date + 'T00:00:00').toLocaleDateString('es-PY', {
+                    timeZone: 'America/Asuncion',
+                    year: 'numeric',
+                    month: '2-digit',
+                    day: '2-digit'
+                  })
                 : 'Sin fecha registrada',
               badge: event.event_type,
             })) ?? []
