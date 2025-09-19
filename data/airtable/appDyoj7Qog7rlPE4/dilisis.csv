@@ -1,0 +1,4 @@
+id,createdTime,Fecha,Hora Inicio,Duración,Tipo,Acceso,Complicaciones,Ultrafiltración,Peso Pre,Peso Post,Eventos Médicos,Evento Médico
+recAszMIfeXkGIlZW,2025-09-16T02:55:27.000Z,2024-09-27,14:00,,Hemodiálisis,Catéter,,,,,,
+recHCGDVfknifVPDO,2025-09-16T02:55:32.000Z,2024-10-03,15:00,,Hemodiálisis,Catéter,,,,,,
+recxWBxPfms0uIt9o,2025-09-16T02:55:44.000Z,2025-09-10,17:00,14400,Hemodiálisis,Fístula AV,"Problema con acceso vascular, requirió recolocación",,,,,

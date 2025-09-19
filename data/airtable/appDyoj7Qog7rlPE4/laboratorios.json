@@ -1,0 +1,233 @@
+[
+  {
+    "id": "rec0RMIJhlOpcIMhn",
+    "createdTime": "2025-09-16T03:35:59.000Z",
+    "fields": {
+      "Fecha": "2025-09-06",
+      "Hora": "12:25",
+      "Hemoglobina": 12.6,
+      "Hematocrito": 39.3,
+      "Creatinina": 8.2,
+      "Urea": 126,
+      "Glucosa": 78,
+      "Sodio": 140,
+      "Potasio": 5.2,
+      "Plaquetas": 222000,
+      "Leucocitos": 7310,
+      "Notas": "Laboratorio 3 días pre-TCE\nValores previos al accidente - Laboratorio San Roque",
+      "Estado Renal": "⚠️ Severo",
+      "Alerta Anemia": "✅ Normal"
+    }
+  },
+  {
+    "id": "rec1Puwxl0D3LMcLm",
+    "createdTime": "2025-09-16T05:50:50.000Z",
+    "fields": {
+      "Estado Renal": "Normal",
+      "Alerta Anemia": "🔴 Crítica",
+      "Alerta General": "⚠️ VALORES CRÍTICOS"
+    }
+  },
+  {
+    "id": "rec3YEuU7ci7Ccf3t",
+    "createdTime": "2025-09-16T03:35:50.000Z",
+    "fields": {
+      "Fecha": "2025-09-16",
+      "Sodio": 7,
+      "TSH": 64.1,
+      "Estado Renal": "Normal",
+      "Alerta Anemia": "🔴 Crítica",
+      "Alerta General": "⚠️ VALORES CRÍTICOS"
+    }
+  },
+  {
+    "id": "rec5RwK7bwEMRgBTW",
+    "createdTime": "2025-09-16T03:36:01.000Z",
+    "fields": {
+      "Fecha": "2025-09-10",
+      "Hora": "10:01",
+      "Hemoglobina": 8.3,
+      "Notas": "Control post-quirúrgico UCI\nPost-craniectomía, anemia post-quirúrgica",
+      "Estado Renal": "Normal",
+      "Alerta Anemia": "🟡 Moderada"
+    }
+  },
+  {
+    "id": "rec5qH3qgvnu3yNOW",
+    "createdTime": "2025-09-16T03:35:45.000Z",
+    "fields": {
+      "Fecha": "2025-09-16",
+      "Sodio": 14,
+      "Potasio": 4.3,
+      "Plaquetas": 152000,
+      "Estado Renal": "Normal",
+      "Alerta Anemia": "🔴 Crítica",
+      "Alerta General": "⚠️ VALORES CRÍTICOS"
+    }
+  },
+  {
+    "id": "rec8exTXn5SNRtQ5y",
+    "createdTime": "2025-09-16T05:50:56.000Z",
+    "fields": {
+      "Estado Renal": "Normal",
+      "Alerta Anemia": "🔴 Crítica",
+      "Alerta General": "⚠️ VALORES CRÍTICOS"
+    }
+  },
+  {
+    "id": "recEMoJjNIW6HvKYn",
+    "createdTime": "2025-09-16T05:51:02.000Z",
+    "fields": {
+      "Estado Renal": "Normal",
+      "Alerta Anemia": "🔴 Crítica",
+      "Alerta General": "⚠️ VALORES CRÍTICOS"
+    }
+  },
+  {
+    "id": "recGopRYnm2fqYDr2",
+    "createdTime": "2025-09-16T05:59:12.000Z",
+    "fields": {
+      "Fecha": "2025-09-16",
+      "Estado Renal": "Normal",
+      "Alerta Anemia": "🔴 Crítica",
+      "Alerta General": "⚠️ VALORES CRÍTICOS"
+    }
+  },
+  {
+    "id": "recJ4mZv0p1k8QlYo",
+    "createdTime": "2025-09-16T05:59:08.000Z",
+    "fields": {
+      "Fecha": "2025-09-16",
+      "Estado Renal": "Normal",
+      "Alerta Anemia": "🔴 Crítica",
+      "Alerta General": "⚠️ VALORES CRÍTICOS"
+    }
+  },
+  {
+    "id": "recNkIsIANUsZCQ8i",
+    "createdTime": "2025-09-16T03:36:02.000Z",
+    "fields": {
+      "Fecha": "2025-09-14",
+      "Hora": "10:12",
+      "Notas": "Post-diálisis UCI\nValores mejorados: Reducción significativa de urea y creatinina post-diálisis",
+      "Estado Renal": "Normal",
+      "Alerta Anemia": "🔴 Crítica",
+      "Alerta General": "⚠️ VALORES CRÍTICOS"
+    }
+  },
+  {
+    "id": "recNnSzKoqEinM4fj",
+    "createdTime": "2025-09-16T03:35:43.000Z",
+    "fields": {
+      "Fecha": "2025-09-16",
+      "Hemoglobina": 9.4,
+      "Creatinina": 0.6,
+      "Sodio": 9.4,
+      "Leucocitos": 6.94,
+      "Estado Renal": "Normal",
+      "Alerta Anemia": "🟡 Moderada"
+    }
+  },
+  {
+    "id": "recOemJrLzAfQ3ABL",
+    "createdTime": "2025-09-16T03:35:48.000Z",
+    "fields": {
+      "Fecha": "2025-09-16",
+      "Hemoglobina": 8.3,
+      "Creatinina": 10.5,
+      "Urea": 152,
+      "Sodio": 18,
+      "TSH": 64.1,
+      "Estado Renal": "⚠️ CRÍTICO",
+      "Alerta Anemia": "🟡 Moderada",
+      "Alerta General": "⚠️ VALORES CRÍTICOS"
+    }
+  },
+  {
+    "id": "recOzVlMb2ruQ7oFQ",
+    "createdTime": "2025-09-16T03:35:57.000Z",
+    "fields": {
+      "Fecha": "2025-07-01",
+      "Creatinina": 10.5,
+      "Urea": 152,
+      "TSH": 64.1,
+      "Notas": "Control mensual completo\nHipotiroidismo severo post-paratiroidectomía",
+      "Estado Renal": "⚠️ CRÍTICO",
+      "Alerta Anemia": "🔴 Crítica",
+      "Alerta General": "⚠️ VALORES CRÍTICOS"
+    }
+  },
+  {
+    "id": "recRN8ZmEBobfhXq1",
+    "createdTime": "2025-09-16T03:35:47.000Z",
+    "fields": {
+      "Fecha": "2025-09-16",
+      "Sodio": 17,
+      "Estado Renal": "Normal",
+      "Alerta Anemia": "🔴 Crítica",
+      "Alerta General": "⚠️ VALORES CRÍTICOS"
+    }
+  },
+  {
+    "id": "recVubDLwPTsuVj6g",
+    "createdTime": "2025-09-16T05:50:38.000Z",
+    "fields": {
+      "Estado Renal": "Normal",
+      "Alerta Anemia": "🔴 Crítica",
+      "Alerta General": "⚠️ VALORES CRÍTICOS"
+    }
+  },
+  {
+    "id": "recYeyxgbouvqQJjj",
+    "createdTime": "2025-09-16T05:29:43.000Z",
+    "fields": {
+      "Estado Renal": "Normal",
+      "Alerta Anemia": "🔴 Crítica",
+      "Alerta General": "⚠️ VALORES CRÍTICOS"
+    }
+  },
+  {
+    "id": "recYhFO7eveBhGnLJ",
+    "createdTime": "2025-09-16T03:35:53.000Z",
+    "fields": {
+      "Fecha": "2024-10-03",
+      "Hora": "11:00",
+      "Creatinina": 18,
+      "Notas": "Valores críticos pre-diálisis\nValor más alto registrado antes de iniciar diálisis",
+      "Estado Renal": "⚠️ CRÍTICO",
+      "Alerta Anemia": "🔴 Crítica",
+      "Alerta General": "⚠️ VALORES CRÍTICOS"
+    }
+  },
+  {
+    "id": "recbaGsX0RcPElqyx",
+    "createdTime": "2025-09-16T05:50:44.000Z",
+    "fields": {
+      "Estado Renal": "Normal",
+      "Alerta Anemia": "🔴 Crítica",
+      "Alerta General": "⚠️ VALORES CRÍTICOS"
+    }
+  },
+  {
+    "id": "recgBzrX9fCBakrLi",
+    "createdTime": "2025-09-16T05:53:25.000Z",
+    "fields": {
+      "Fecha": "2025-09-16",
+      "Estado Renal": "Normal",
+      "Alerta Anemia": "🔴 Crítica",
+      "Alerta General": "⚠️ VALORES CRÍTICOS"
+    }
+  },
+  {
+    "id": "reclhHoZO2LNjWQvh",
+    "createdTime": "2025-09-16T03:35:55.000Z",
+    "fields": {
+      "Fecha": "2025-06-09",
+      "Hemoglobina": 11,
+      "Hematocrito": 33,
+      "Notas": "Control hematológico\nAnemia crónica secundaria a IRC",
+      "Estado Renal": "Normal",
+      "Alerta Anemia": "✅ Normal"
+    }
+  }
+]

@@ -1,0 +1,701 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "PAPA Airtable Actions",
+    "description": "Actions to list and manage clinical records in Airtable base appDyoj7Qog7rlPE4.",
+    "version": "v1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.airtable.com/v0/appDyoj7Qog7rlPE4"
+    }
+  ],
+  "paths": {
+    "/tblFaflNFwUHf18am": {
+      "get": {
+        "description": "List Eventos Médicos",
+        "operationId": "listEventosMedicos",
+        "parameters": [
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 100,
+              "minimum": 1,
+              "maximum": 100
+            },
+            "description": "Number of records (max 100)"
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Pagination offset token"
+          },
+          {
+            "name": "filterByFormula",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Airtable formula to filter records"
+          },
+          {
+            "name": "sort[0][field]",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Sort field"
+          },
+          {
+            "name": "sort[0][direction]",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "asc",
+                "desc"
+              ]
+            },
+            "description": "Sort direction"
+          }
+        ],
+        "deprecated": false
+      },
+      "post": {
+        "description": "Create Eventos Médicos record",
+        "operationId": "createEventoMedico",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "fields": {
+                    "type": "object",
+                    "additionalProperties": true
+                  },
+                  "typecast": {
+                    "type": "boolean",
+                    "default": true
+                  }
+                },
+                "required": [
+                  "fields"
+                ]
+              }
+            }
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/tblFaflNFwUHf18am/{recordId}": {
+      "get": {
+        "description": "Get Eventos Médicos record",
+        "operationId": "getEventoMedico",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Airtable record ID"
+          }
+        ],
+        "deprecated": false
+      },
+      "patch": {
+        "description": "Update Eventos Médicos record",
+        "operationId": "updateEventoMedico",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "fields": {
+                    "type": "object",
+                    "additionalProperties": true
+                  },
+                  "typecast": {
+                    "type": "boolean",
+                    "default": true
+                  }
+                },
+                "required": [
+                  "fields"
+                ]
+              }
+            }
+          }
+        },
+        "deprecated": false
+      },
+      "delete": {
+        "description": "Delete Eventos Médicos record",
+        "operationId": "deleteEventoMedico",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      }
+    },
+    "/tblzchkqYBUtkWEHY": {
+      "get": {
+        "description": "List Laboratorios",
+        "operationId": "listLaboratorios",
+        "parameters": [
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 100,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "filterByFormula",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "sort[0][field]",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "sort[0][direction]",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "asc",
+                "desc"
+              ]
+            }
+          }
+        ],
+        "deprecated": false
+      },
+      "post": {
+        "description": "Create Laboratorios record",
+        "operationId": "createLaboratorio",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "fields": {
+                    "type": "object",
+                    "additionalProperties": true
+                  },
+                  "typecast": {
+                    "type": "boolean",
+                    "default": true
+                  }
+                },
+                "required": [
+                  "fields"
+                ]
+              }
+            }
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/tblzchkqYBUtkWEHY/{recordId}": {
+      "get": {
+        "description": "Get Laboratorios record",
+        "operationId": "getLaboratorio",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      },
+      "patch": {
+        "description": "Update Laboratorios record",
+        "operationId": "updateLaboratorio",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "fields": {
+                    "type": "object",
+                    "additionalProperties": true
+                  },
+                  "typecast": {
+                    "type": "boolean",
+                    "default": true
+                  }
+                },
+                "required": [
+                  "fields"
+                ]
+              }
+            }
+          }
+        },
+        "deprecated": false
+      },
+      "delete": {
+        "description": "Delete Laboratorios record",
+        "operationId": "deleteLaboratorio",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      }
+    },
+    "/tblQahASwhGiuoQTY": {
+      "get": {
+        "description": "List Resumen Diario",
+        "operationId": "listResumenDiario",
+        "parameters": [
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 100,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "filterByFormula",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      },
+      "post": {
+        "description": "Create Resumen Diario record",
+        "operationId": "createResumenDiario",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "fields": {
+                    "type": "object",
+                    "additionalProperties": true
+                  },
+                  "typecast": {
+                    "type": "boolean",
+                    "default": true
+                  }
+                },
+                "required": [
+                  "fields"
+                ]
+              }
+            }
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/tblQahASwhGiuoQTY/{recordId}": {
+      "get": {
+        "description": "Get Resumen Diario record",
+        "operationId": "getResumenDiario",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      },
+      "patch": {
+        "description": "Update Resumen Diario record",
+        "operationId": "updateResumenDiario",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "fields": {
+                    "type": "object",
+                    "additionalProperties": true
+                  },
+                  "typecast": {
+                    "type": "boolean",
+                    "default": true
+                  }
+                },
+                "required": [
+                  "fields"
+                ]
+              }
+            }
+          }
+        },
+        "deprecated": false
+      },
+      "delete": {
+        "description": "Delete Resumen Diario record",
+        "operationId": "deleteResumenDiario",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      }
+    },
+    "/tblbhAOs6LsFcFeFN": {
+      "get": {
+        "description": "List Medicamentos",
+        "operationId": "listMedicamentos",
+        "parameters": [
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 100,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "filterByFormula",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      }
+    },
+    "/tblbhAOs6LsFcFeFN/{recordId}": {
+      "get": {
+        "description": "Get Medicamentos record",
+        "operationId": "getMedicamento",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      }
+    },
+    "/tblzlZFtzDYhmL12A": {
+      "get": {
+        "description": "List Médicos",
+        "operationId": "listMedicos",
+        "parameters": [
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 100,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      }
+    },
+    "/tblzlZFtzDYhmL12A/{recordId}": {
+      "get": {
+        "description": "Get Médicos record",
+        "operationId": "getMedico",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      }
+    },
+    "/tblKF9NxoEB4Mzr3G": {
+      "get": {
+        "description": "List Instituciones",
+        "operationId": "listInstituciones",
+        "parameters": [
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 100,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      }
+    },
+    "/tblKF9NxoEB4Mzr3G/{recordId}": {
+      "get": {
+        "description": "Get Instituciones record",
+        "operationId": "getInstitucion",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      }
+    },
+    "/tblvagJrLVHfwOb5R": {
+      "get": {
+        "description": "List Diálisis (read-only)",
+        "operationId": "listDialisis",
+        "parameters": [
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 100,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "filterByFormula",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      }
+    },
+    "/tblvagJrLVHfwOb5R/{recordId}": {
+      "get": {
+        "description": "Get Diálisis record (read-only)",
+        "operationId": "getDialisis",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      }
+    },
+    "/tblxyRE7kjHhelK0C": {
+      "get": {
+        "description": "List Actualizaciones Diarias (read-only)",
+        "operationId": "listActualizacionesDiarias",
+        "parameters": [
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 100,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "filterByFormula",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      }
+    },
+    "/tblxyRE7kjHhelK0C/{recordId}": {
+      "get": {
+        "description": "Get Actualizaciones Diarias record (read-only)",
+        "operationId": "getActualizacionDiaria",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "airtableApiKey": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "Airtable PAT"
+      }
+    },
+    "schemas": {}
+  },
+  "security": [
+    {
+      "airtableApiKey": []
+    }
+  ]
+}

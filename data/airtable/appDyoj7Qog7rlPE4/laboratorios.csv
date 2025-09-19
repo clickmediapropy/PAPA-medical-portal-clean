@@ -1,0 +1,27 @@
+id,createdTime,Fecha,Hora,Hemoglobina,Hematocrito,Creatinina,Urea,Glucosa,Sodio,Potasio,TSH,Plaquetas,Leucocitos,Notas,Eventos Médicos,Estado Renal,Alerta Anemia,Alerta General,Evento Médico
+rec0RMIJhlOpcIMhn,2025-09-16T03:35:59.000Z,2025-09-06,12:25,12.6,39.3,8.2,126,78,140,5.2,,222000,7310,"Laboratorio 3 días pre-TCE
+Valores previos al accidente - Laboratorio San Roque",,⚠️ Severo,✅ Normal,,
+rec1Puwxl0D3LMcLm,2025-09-16T05:50:50.000Z,,,,,,,,,,,,,,,Normal,🔴 Crítica,⚠️ VALORES CRÍTICOS,
+rec3YEuU7ci7Ccf3t,2025-09-16T03:35:50.000Z,2025-09-16,,,,,,,7,,64.1,,,,,Normal,🔴 Crítica,⚠️ VALORES CRÍTICOS,
+rec5RwK7bwEMRgBTW,2025-09-16T03:36:01.000Z,2025-09-10,10:01,8.3,,,,,,,,,,"Control post-quirúrgico UCI
+Post-craniectomía, anemia post-quirúrgica",,Normal,🟡 Moderada,,
+rec5qH3qgvnu3yNOW,2025-09-16T03:35:45.000Z,2025-09-16,,,,,,,14,4.3,,152000,,,,Normal,🔴 Crítica,⚠️ VALORES CRÍTICOS,
+rec8exTXn5SNRtQ5y,2025-09-16T05:50:56.000Z,,,,,,,,,,,,,,,Normal,🔴 Crítica,⚠️ VALORES CRÍTICOS,
+recEMoJjNIW6HvKYn,2025-09-16T05:51:02.000Z,,,,,,,,,,,,,,,Normal,🔴 Crítica,⚠️ VALORES CRÍTICOS,
+recGopRYnm2fqYDr2,2025-09-16T05:59:12.000Z,2025-09-16,,,,,,,,,,,,,,Normal,🔴 Crítica,⚠️ VALORES CRÍTICOS,
+recJ4mZv0p1k8QlYo,2025-09-16T05:59:08.000Z,2025-09-16,,,,,,,,,,,,,,Normal,🔴 Crítica,⚠️ VALORES CRÍTICOS,
+recNkIsIANUsZCQ8i,2025-09-16T03:36:02.000Z,2025-09-14,10:12,,,,,,,,,,,"Post-diálisis UCI
+Valores mejorados: Reducción significativa de urea y creatinina post-diálisis",,Normal,🔴 Crítica,⚠️ VALORES CRÍTICOS,
+recNnSzKoqEinM4fj,2025-09-16T03:35:43.000Z,2025-09-16,,9.4,,0.6,,,9.4,,,,6.94,,,Normal,🟡 Moderada,,
+recOemJrLzAfQ3ABL,2025-09-16T03:35:48.000Z,2025-09-16,,8.3,,10.5,152,,18,,64.1,,,,,⚠️ CRÍTICO,🟡 Moderada,⚠️ VALORES CRÍTICOS,
+recOzVlMb2ruQ7oFQ,2025-09-16T03:35:57.000Z,2025-07-01,,,,10.5,152,,,,64.1,,,"Control mensual completo
+Hipotiroidismo severo post-paratiroidectomía",,⚠️ CRÍTICO,🔴 Crítica,⚠️ VALORES CRÍTICOS,
+recRN8ZmEBobfhXq1,2025-09-16T03:35:47.000Z,2025-09-16,,,,,,,17,,,,,,,Normal,🔴 Crítica,⚠️ VALORES CRÍTICOS,
+recVubDLwPTsuVj6g,2025-09-16T05:50:38.000Z,,,,,,,,,,,,,,,Normal,🔴 Crítica,⚠️ VALORES CRÍTICOS,
+recYeyxgbouvqQJjj,2025-09-16T05:29:43.000Z,,,,,,,,,,,,,,,Normal,🔴 Crítica,⚠️ VALORES CRÍTICOS,
+recYhFO7eveBhGnLJ,2025-09-16T03:35:53.000Z,2024-10-03,11:00,,,18,,,,,,,,"Valores críticos pre-diálisis
+Valor más alto registrado antes de iniciar diálisis",,⚠️ CRÍTICO,🔴 Crítica,⚠️ VALORES CRÍTICOS,
+recbaGsX0RcPElqyx,2025-09-16T05:50:44.000Z,,,,,,,,,,,,,,,Normal,🔴 Crítica,⚠️ VALORES CRÍTICOS,
+recgBzrX9fCBakrLi,2025-09-16T05:53:25.000Z,2025-09-16,,,,,,,,,,,,,,Normal,🔴 Crítica,⚠️ VALORES CRÍTICOS,
+reclhHoZO2LNjWQvh,2025-09-16T03:35:55.000Z,2025-06-09,,11,33,,,,,,,,,"Control hematológico
+Anemia crónica secundaria a IRC",,Normal,✅ Normal,,

@@ -1,0 +1,5 @@
+id,createdTime,Medicamento,Tipo,Fecha Inicio,Fecha Fin,Dosis Inicial,Dosis Actual,Frecuencia,Vía,Notas,Eventos Médicos,Estado,Días Activo,Eventos
+rec1aIQ6PLM6Mrzk2,2025-09-16T02:55:51.000Z,Remifentanilo,Analgesia,2025-09-09,,9 mcg/kg/h,3 mcg/kg/h,,IV,"Analgesia en UCI, reducción progresiva",,✅ Activo,7,
+recEAD71kALUYdGtS,2025-09-16T02:55:53.000Z,Antibiótico,Antibiótico,2025-09-13,,,Según protocolo UCI,,IV,Cambio de esquema antibiótico el 13/09,,✅ Activo,3,
+recGp0pjmj4EuhMsQ,2025-09-16T02:55:50.000Z,Propofol,Sedación,2025-09-09,,Alta dosis,Reducción progresiva,,IV,Sedación en UCI post-craniectomía,,✅ Activo,7,
+recX4MA9vcSs5bex5,2025-09-16T02:55:52.000Z,Noradrenalina,Vasoactivo,2025-09-09,2025-09-13,Según PAM,,,IV,"Soporte vasoactivo, suspendido el 13/09",,❌ Suspendido,4,

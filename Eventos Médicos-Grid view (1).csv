@@ -1,0 +1,147 @@
+﻿Fecha,Hora,Tipo,Título,Descripción,Urgencia,Tags,Archivos,Creado vía,Institución,Médico,Valores Lab,Medicamentos Relacionados,Sesión Diálisis,Laboratorios,Medicamentos,Diálisis,Días Desde Evento,Requiere Seguimiento
+2025-09-19,current,Comentario médico,Recomendación de Nicky (cuñado y médico) sobre traslado,"Nicky, cuñado del paciente y médico, recomendó que si se considera necesario pasarlo a sala normal, estaría más seguro en IPS que en una sala común por el tema neurológico y de diálisis. Opina que Jorge se quede mínimo 10 días más en UTI y recién ahí considerar traslado. Sugiere 20 días de atención 24/7 para observar mejorías.",Media,"Traslado,UTI,Opinión médica,Neurológico,Diálisis",,Registro Medico Jorge Delgado GPT,,,,,,,,,0,
+2025-09-18,22:20,Consulta / Asignación de especialista,Asignación de endocrinólogo,Se asignó al Dr. Sergio Logwin como endocrinólogo. Durante los últimos 9 días no se realizaron análisis del perfil endocrino y se mantuvo dosis incorrecta de levotiroxina. El Dr. Logwin corregirá el tratamiento.,Media,"endocrinología,levotiroxina,nuevo médico",,Registro Medico Jorge Delgado,,Dr. Sergio Logwin,,,,,,,1,
+2025-09-18,22:25,Diagnóstico presuntivo,Posible crisis mixedematosa,Se sospecha que la causa de la caída pudo haber sido una crisis mixedematosa. El endocrinólogo Dr. Sergio Logwin deberá confirmar o descartar el diagnóstico.,Alta,"endocrinología,crisis mixedematosa,caída",,Registro Medico Jorge Delgado,,Dr. Sergio Logwin,,,,,,,1,
+2025-09-17,14:59,Imagenología,Resultado de Tomografía Cerebral,"El Dr. Guido informó que la tomografía muestra que el hematoma no aumentó y comienza a reabsorberse. El edema alrededor del hematoma es menor que en la última tomografía. Se indica que el cerebro no solo está afectado por el traumatismo, sino también por la enfermedad renal y la edad, lo que enlentece la recuperación. No hay signos de compresión cerebral, pero las neuronas requieren tiempo para reconectarse. Se recomienda no presionar ni manipular al paciente innecesariamente.",No urgente,"Tomografía,Hematoma,Edema cerebral,Recuperación lenta",,Chat familiar,,Dr. Guido,,,,,,,2,
+2025-09-17,19:00,Evolución Clínica,Informe Consolidado de Evolución (09–17 septiembre 2025),"## Evolución Clínica Continua
+
+**09/09/2025 – Evento inicial**
+Paciente sufrió traumatismo craneoencefálico severo con hematoma intracerebral (20 cm³) y subdural izquierdo. Traslado a UCI.
+
+**10/09/2025**
+Primera sesión de diálisis post-cirugía, acceso complicado pero completada.
+
+**11/09/2025**
+Episodio de agitación nocturna, requirió sujeción.
+
+**12/09/2025**
+Respuesta verbal parcial ante estímulos.
+
+**13/09/2025**
+- Apertura ocular completa y respuesta a estímulos.
+- Respuesta motora bilateral a órdenes simples.
+
+**14/09/2025**
+- Hemodiálisis con mejoría renal.
+- Radiografía de tórax normal.
+- Radiografía abdominal normal.
+
+**15/09/2025**
+Traqueostomía exitosa, paciente respira con O₂ suplementario.
+
+**16/09/2025**
+- Radiografía de tórax normal.
+- Diálisis sentado para estimular conciencia.
+- Visita médica: PA elevada controlada, plan tomografía.
+
+**17/09/2025**
+Tomografía cerebral: hematoma estable en reabsorción, edema menor, sin compresión cerebral. Recuperación lenta por edad y enfermedad renal.
+
+---
+
+## Estado General al 17/09/2025
+- Neurológico: recuperación lenta, sin nuevos signos de compresión.
+- Respiratorio: traqueostomía permeable, ventilación espontánea con O₂.
+- Renal: programa de hemodiálisis, buena respuesta.
+- Hemodinámico: PA controlada con medicación.
+- Pronóstico: favorable en absorción del hematoma; recuperación neurológica progresiva pero lenta.",No urgente,"Evolución clínica,Informe consolidado,Neurología,Traumatismo craneoencefálico,Diálisis,Traqueostomía",,Registro consolidado,,,,,,,,,2,
+2025-09-17,15:00,Observación clínica,Monitoreo de signos vitales en UCI - PA elevada,"Monitor de signos vitales SPACELABS Healthcare mostrando:
+• Presión Arterial: 185/98 mmHg (MAP 126) - ELEVADA
+• Frecuencia Cardíaca: 99 lpm
+• Saturación O₂: 99%
+• ECG: 105 restaurados, ritmo estable
+
+Paciente con 3 bombas de infusión TERUMO activas:
+• Bomba 1: 55.00 mL/h (volumen 98.90 mL)
+• Bomba 2: 10.00 mL/h (volumen 282.00 mL)
+• Bomba 3: En uso
+
+Soporte respiratorio con O₂ mediante flujómetro calibrado.",alta,"presión arterial,UCI,seguimiento,control clínico",,Registro Médico Jorge Delgado,,,,,,,,,2,
+2025-09-16,08:12,Estudio por imágenes,Radiografía de Tórax (AP) - Seguimiento en UCI,"Radiografía de tórax (AP) realizada el 16/09/25 a las 08:12. Mediastino centrado, sombra cardiaca normal, hilios simétricos. Campos pulmonares sin evidencia de procesos infecciosos. Senos costofrénicos libres. Presencia de tubo endotraqueal, vía central a la derecha y sonda nasogástrica en adecuada posición.",baja,"radiografía,tórax,seguimiento UCI,dispositivos,control clínico",,GPT,,,,,,,,,3,
+2025-09-16,18:00,Diálisis,Diálisis en posición sentada - Estimulación de conciencia,"Se realizó sesión de diálisis el 16/09/25 a las 18:00 horas, con el paciente en posición sentada como estrategia terapéutica para estimular su nivel de conciencia y respuesta neurológica.",medio,"diálisis,estimulación,neurología,despertar",,GPT,,,,,,,,,3,
+2025-09-16,12:00,Evolución Médica,Visita médica durante diálisis,"Durante la diálisis el paciente presentó presión arterial elevada, requiriendo medicación para control. Se mantuvo estable, sin cambios significativos respecto al día anterior. Se planifica tomografía de control para mañana para evaluar evolución cerebral.",Media,"diálisis,presión arterial,tomografía,estabilidad",,Registro Médico Jorge Delgado,,,,,,,,,3,
+2025-09-16,10:00,Evolución Médica,Certificado médico integral - Sanatorio La Costa,"CERTIFICADO MEDICO - UNIDAD DE TERAPIA INTENSIVA ADULTOS
+Sanatorio La Costa
+
+Paciente: Jorge Agustín Delgado Puentes
+LCN 656.056
+Fecha: 30 de septiembre de 2025
+
+DIAGNÓSTICOS:
+1. ENCEFALOPATÍA + DRENAJE DE HEMORRAGIA SUBARACNOIDEA (HSA) AGUDO LADO IZQUIERDO
+2. HEMATOMA TEMPORAL LADO IZQUIERDO
+3. ENFERMEDAD RENAL CRÓNICA EN HEMODIÁLISIS TRISEMANAL M/S
+4. HIPERTENSIÓN ARTERIAL (HTA)
+5. HIPOPARATIROIDISMO (PARATIROIDECTOMÍA TOTAL)
+6. HIPOTIROIDISMO
+7. HIPOTENSION USURA
+
+MEDICACIONES E INSUMOS PARA 3 DÍAS:
+• Omeprazol 20 Mg, frasco, 1 frasco por enfermera cada 24 h
+• Lacosamida 5 Mg. Ampolla, 3 ampollas para goteo de 24 hs
+• Levotiroxina 75 Mg. Ampollas, 1 ampolla por enfermera
+• Ácido valproico 500 Mg. frasco, 1 ampolla por enfermera
+• Enalapril 10 Mg. Ampolla, 1 ampolla por enfermera
+• Levotiroxina 150 Mg. 1 comprimido por SNG c/ 24 hs
+• Ácido valproico 500 Mg. frasco, 1 ampolla por vía venosa c/12 hs
+
+EQUIPO PARA HEMODIÁLISIS:
+• Filtro para hemodiálisis 20 HF alto flujo para 3 días (Martes, Jueves y Sábados)
+• Tubuladores para hemodiálisis caja para 3 días (Martes, Jueves y Sábados)
+• Filtros Bioback MR-2 caja para 3 días
+
+OTROS:
+• Gastos estada UCI: UCI, 10 unidades por día
+• Sol godzi para hemodiálisis por 7000 ML para 3 días (Martes, Jueves y Sábados)
+• Bicarbonato para hemodiálisis galón 4 L. para 3 días
+• Aguja para hemodiálisis 1 unidades para 3 días (Martes, Jueves y Sábados)
+• Catter de inserción N10: 14. 1 unidades por día
+
+Firmado por:
+Dra. Cecilia Colabrese Díaz
+Dr. Rubén Deporte Salcedo",No urgente,"Informe consolidado,IRC,TCE,Neurología,Traqueostomía,Diálisis",,Registro Médico Jorge Delgado,,,,,,,,,3,
+2025-09-15,11:00,Procedimiento,Traqueostomía exitosa sin complicaciones,"Se realizó traqueostomía sin complicaciones. El paciente respira espontáneamente con oxígeno suplementario, sin necesidad de intubación o soporte ventilatorio. Procedimiento clave en la estrategia de destete ventilatorio.",medio,"procedimiento,traqueostomía,respiración espontánea,destete ventilatorio,UCI",,GPT,,,,,,,,,4,
+2025-09-14,10:12,Diálisis,Hemodiálisis en UCI - Mejora de parámetros renales,Sesión de hemodiálisis realizada en UCI el 14/09/25. Se observó reducción significativa en los niveles de urea y creatinina post-procedimiento. Indicador positivo de respuesta al tratamiento sustitutivo renal.,medio,"diálisis,UCI,mejoría renal,tratamiento sustitutivo,IRC",,GPT,Sanatorio La Costa,,,,,,,,5,
+2025-09-14,08:12,Estudio por imágenes,Radiografía de Tórax (AP) - Control post-intubación,"Radiografía de tórax (AP) realizada el 14/09/25. Mediastino centrado, sombra cardiaca de dimensiones normales, hilios simétricos, campos pulmonares sin infiltrados. Senos costofrénicos libres. Se observa tubo endotraqueal y vía central correctamente posicionados.",baja,"radiografía,tórax,control post-intubación,dispositivos",,GPT,,,,,,,,,5,
+2025-09-14,18:02,Estudio por imágenes,Radiografía Abdominal (AP) - Hallazgos normales,"Radiografía abdominal simple (AP) realizada el 14/09/25 a las 18:02. Riñones con forma, tamaño y ubicación normales. Sombra hepática y músculos ileopsoas conservados. Gases intestinales distribuidos adecuadamente. Sonda nasogástrica correctamente posicionada. Sin calcificaciones ni hallazgos patológicos.",baja,"radiografía,abdomen,evaluación general,sonda nasogástrica",,GPT,,,,,,,,,5,
+2025-09-13,13:03,Síntoma,✅ EVOLUCIÓN POSITIVA - Apertura ocular,"HITO IMPORTANTE
+Paciente abre ambos ojos completamente
+Respuesta a estímulos verbales
+Testigo: Familiar presente",medio,"UCI,Neurología",,Sistema,,,,,,,,,6,
+2025-09-13,13:39,Síntoma,Respuesta motora bilateral,"Movimientos en ambos lados del cuerpo
+Respuesta a comandos verbales
+Buen pronóstico neurológico",medio,"UCI,Neurología",,Sistema,,,,,,,,,6,
+2025-09-13,22:07,Solicitud,Orden médica - Radiografía de Tórax,"Solicitud médica realizada por la Dra. Orue Alcaraz, Lorena, para realizar una radiografía de tórax (AP) con indicación clínica de control post-intubación.",baja,"solicitud,radiografía,indicaciones médicas",,GPT,,,,,,,,,6,
+2025-09-13,07:32,Estudio por imágenes,Radiografía de Tórax - Cardiomegalia y dispositivo,"Radiografía de tórax (AP) realizada el 13/09/25 a las 07:32. Se observó cardiomegalia, hilios simétricos, campos pulmonares sin signos de infección activa, senos costofrénicos libres. Presencia de tubo endotraqueal y vía central yugular izquierda.",baja,"radiografía,tórax,cardiomegalia,UCI,dispositivos",,GPT,,,,,,,,,6,
+2025-09-13,15:00,Observación clínica,Movimientos espontáneos de miembros superiores,Se observaron movimientos de ambos brazos sin estímulo previo. Podría indicar reflejos o actividad motora espontánea.,baja,"movimientos,reflejos,estado neurológico",,GPT,,,,,,,,,6,
+2025-09-12,10:00,Observación clínica,Respuesta verbal parcial al estímulo,"Ante estímulo verbal, Jorge movió los labios y pareció intentar hablar. No se logró comprensión de palabras. Familia reporta mejoría leve.",baja,"conciencia,estimulación,respuesta verbal",,GPT,,,,,,,,,7,
+2025-09-11,02:30,Observación clínica,Agitación nocturna con necesidad de sujeción,"Jorge se mostró muy agitado durante la madrugada del 11 de septiembre. Intentó arrancarse el suero, fue necesario sujetarlo para evitar autolesiones.",medio,"agitación,confusión,noche",,GPT,,,,,,,,,8,
+2025-09-10,17:00,Diálisis,Hemodiálisis en UCI,"Primera diálisis post-cirugía
+Duración: 4 horas (2h + recolocación + 2h)
+Complicación con acceso vascular
+Completada exitosamente",alto,"UCI,Diálisis,IRC",,Sistema,,,,,,,,,9,
+2025-09-09,10:52,Síntoma,TCE SEVERO - Caída con traumatismo,Hematoma intracerebral 20cm³ + subdural izquierdo. Ambulancia tardó 40 min,crítico,"TCE,Neurología,UCI",,Sistema,,,,,,,,,10,
+2025-09-09,10:52,Síntoma,⚠️ TCE SEVERO - Traumatismo craneal,"🚨 EVENTO CRÍTICO
+Caída con traumatismo craneoencefálico severo
+Hematoma intracerebral: 20 cm³
+Hematoma subdural izquierdo
+Ambulancia tardó 40 minutos
+Traslado: Sanatorio La Costa",crítico,"TCE,Neurología,UCI",,Sistema,,,,,,,,,10,
+2024-12-11,20:35,Observación clínica,Dolor y debilidad post-tratamiento,"Jorge se mostró dolorido y débil, posiblemente debido a múltiples tratamientos médicos. Presentó momentos de derrumbe emocional, pero luego mostró signos de mejoría. Familia reporta que logró bañarse por sí mismo.",media,"dolor,debilidad,post-tratamiento,recuperación",,GPT,,,,,,,,,282,
+2024-11-11,18:17,Observación clínica,Ausencia de respuesta a estímulos,Mensaje familiar indica que Jorge no respondía a estímulos en ese momento. Requiere seguimiento neurológico.,alta,"ausencia de respuesta,estado neurológico,seguimiento",,GPT,,,,,,,,,312,
+2024-10-14,15:08,Intervención,Administración de calmante por ansiedad,Se administró un calmante más fuerte a Jorge por aparente miedo o ansiedad. Mejor tolerancia posterior al fármaco según observación familiar.,media,"calmante,ansiedad,sedación,manejo conductual",,GPT,,,,,,,,,340,
+2024-10-03,15:00,Diálisis,INICIO HEMODIÁLISIS,"Primera sesión de diálisis, programa 3x/semana",alto,"IRC,Diálisis",,Sistema,,,,,,,,,351,
+2024-09-27,14:00,Procedimiento,Fístula arteriovenosa - Cirugía para acceso de diálisis,Procedimiento quirúrgico vascular realizado en el miembro superior izquierdo para la creación de fístula arteriovenosa con fines de hemodiálisis. Sin complicaciones postoperatorias inmediatas.,alto,"fístula,diálisis,acceso vascular,cirugía,IRC",,GPT,,,,,,,,,357,
+2024-09-26,17:53,Observación clínica,Ausencia de respuesta verbal o física,Jorge no responde a estímulos verbales ni físicos según comentarios familiares. Posible episodio de desconexión o bajo nivel de conciencia.,alta,"ausencia de respuesta,conciencia,estado neurológico",,GPT,,,,,,,,,358,
+2024-09-10,17:00,Consulta,Diagnóstico IRC Estadio 5,"Dr. Darío Cuevas - Nefrología
+TFG: 6% (crítico)
+Recomendación: Diálisis urgente
+Paciente solicita alternativa dietética",crítico,"IRC,Nefrología",,Sistema,,,,,,,,,374,
+2024-03-25,10:38,Episodio agudo,Hipertensión y disnea episódica,Jorge presentó un episodio de presión arterial elevada y dificultad para respirar el 25 de marzo por la mañana. Mejora con presencia familiar.,media,"presión alta,disnea,episodio agudo",,GPT,,,,,,,,,543,
+2024-02-26,09:34,Observación clínica,Desmejoría general con debilidad muscular,"Jorge presenta estado de salud muy desmejorado, con músculos debilitados y poca respuesta física. Requiere asistencia 24h por enfermeras. Familia con pocas expectativas de mejora en ese momento.",alta,"debilidad,desmejoría,enfermería,sin respuesta",,GPT,,,,,,,,,571,
+2024-02-02,09:19,Observación clínica,Agitación física persistente,"Familiares reportan que Jorge presenta movimientos excesivos y constantes, lo cual representa un reto en su cuidado. Posible agitación psicomotora.",media,"agitación,movimientos,comportamiento",,GPT,,,,,,,,,595,
+2024-01-07,23:30,Observación clínica,Movimientos espontáneos en cama,Se observaron movimientos voluntarios de Jorge en la cama durante la noche del 07 de enero. Indicio positivo de actividad motora.,baja,"movimiento,actividad motora,mejoría",,GPT,,,,,,,,,621,
+,,,,,,,,,,,,,,,,,NaN,
+,,,,,,,,,,,,,,,,,NaN,
+,,,,,,,,,,,,,,,,,NaN,
+,,,,,,,,,,,,,,,,,NaN,

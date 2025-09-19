@@ -1,0 +1,116 @@
+[
+  {
+    "id": "rec5iHPDceoLncklw",
+    "createdTime": "2025-09-16T02:55:55.000Z",
+    "fields": {
+      "Fecha": "2025-09-09",
+      "Estado General": "Crítico",
+      "Resumen": "TCE SEVERO - Día del accidente\n• Caída con traumatismo craneoencefálico\n• Hematoma intracerebral 20cm³ + subdural\n• Craniectomía descompresiva urgente exitosa\n• Ingreso a UCI, ventilación mecánica",
+      "Valores Críticos": "Pre-accidente:\n• Creatinina: 8.2 mg/dL\n• Hemoglobina: 12.6 g/dL\n• Potasio: 5.2 mEq/L",
+      "Próximas 24h": "Monitoreo neurológico intensivo\nControl de PIC\nSedación profunda",
+      "Generado Por": "Manual"
+    }
+  },
+  {
+    "id": "rec6gRvMuzKgdd1hL",
+    "createdTime": "2025-09-16T02:55:57.000Z",
+    "fields": {
+      "Fecha": "2025-09-15",
+      "Estado General": "Estable",
+      "Resumen": "POST-TRAQUEOSTOMÍA\n• Traqueostomía exitosa sin complicaciones\n• Inicio de destete ventilatorio\n• Respuesta neurológica mantenida\n• Hemodiálisis regular sin complicaciones",
+      "Valores Críticos": "En vigilancia:\n• IRC en diálisis\n• Anemia post-quirúrgica\n• Hipotiroidismo severo (TSH 64.1)",
+      "Próximas 24h": "Continuar destete ventilatorio\nFisioterapia respiratoria\nControl neurológico\nAjuste de sedación",
+      "Generado Por": "Sistema"
+    }
+  },
+  {
+    "id": "rec9qmp0kP6XmUWIs",
+    "createdTime": "2025-09-16T02:41:13.000Z",
+    "fields": {
+      "Fecha": "2025-09-15",
+      "Estado General": "Estable",
+      "Resumen": "Paciente en UCI post-traqueostomía exitosa.\nInicio de destete ventilatorio progresivo.\nRespuesta neurológica positiva con apertura ocular y movimientos bilaterales.\nHemodiálisis programada sin complicaciones.\nSedación reducida progresivamente.",
+      "Valores Críticos": "Creatinina: 8.2 mg/dL (elevada - IRC)\nHemoglobina: 8.3 g/dL (baja - anemia post-quirúrgica)\nTSH: 64.1 µUI/mL (muy elevada - hipotiroidismo)",
+      "Próximas 24h": "- Continuar destete ventilatorio\n- Hemodiálisis programada\n- Control neurológico\n- Ajuste de sedación según tolerancia",
+      "Generado Por": "Sistema"
+    }
+  },
+  {
+    "id": "recDrKCaO9WICTPhq",
+    "createdTime": "2025-09-16T05:59:58.000Z",
+    "fields": {
+      "Fecha": "2025-09-16"
+    }
+  },
+  {
+    "id": "recENwU2fXBovxkRk",
+    "createdTime": "2025-09-16T04:29:01.000Z",
+    "fields": {
+      "Fecha": "2025-09-16",
+      "Estado General": "Estable",
+      "Resumen": "Se realizaron radiografías de abdomen simple y tórax. Abdomen sin hallazgos relevantes; tórax mayormente normal con tubo derecho bien posicionado y pequeña secuela de fractura costal izquierda ya sanada. No se identifican problemas agudos.",
+      "Valores Críticos": "Ninguno",
+      "Próximas 24h": "No se informaron pruebas o procedimientos planificados.",
+      "Generado Por": "n8n"
+    }
+  },
+  {
+    "id": "recFwGh57JUSZ5plx",
+    "createdTime": "2025-09-16T10:10:29.000Z",
+    "fields": {
+      "Fecha": "2025-09-16"
+    }
+  },
+  {
+    "id": "reci9R0qF3qa5HoAf",
+    "createdTime": "2025-09-16T02:40:01.000Z",
+    "fields": {
+      "Fecha": "2025-09-15",
+      "Estado General": "Estable",
+      "Resumen": "Paciente en UCI post-traqueostomía exitosa.\nInicio de destete ventilatorio progresivo.\nRespuesta neurológica positiva con apertura ocular y movimientos bilaterales.\nHemodiálisis programada sin complicaciones.\nSedación reducida progresivamente.",
+      "Valores Críticos": "Creatinina: 8.2 mg/dL (elevada - IRC)\nHemoglobina: 8.3 g/dL (baja - anemia post-quirúrgica)\nTSH: 64.1 µUI/mL (muy elevada - hipotiroidismo)",
+      "Próximas 24h": "- Continuar destete ventilatorio\n- Hemodiálisis programada\n- Control neurológico\n- Ajuste de sedación según tolerancia",
+      "Generado Por": "Sistema"
+    }
+  },
+  {
+    "id": "recju1UmjbYIugr2S",
+    "createdTime": "2025-09-16T10:10:30.000Z",
+    "fields": {
+      "Fecha": "2025-09-16"
+    }
+  },
+  {
+    "id": "recr4mdrN59mD98dJ",
+    "createdTime": "2025-09-16T06:03:52.000Z",
+    "fields": {
+      "Fecha": "2025-09-16"
+    }
+  },
+  {
+    "id": "recs19FfjM11dyIfj",
+    "createdTime": "2025-09-16T06:06:02.000Z",
+    "fields": {
+      "Fecha": "2025-09-16"
+    }
+  },
+  {
+    "id": "recua8tMCzjOrxuMH",
+    "createdTime": "2025-09-16T02:55:56.000Z",
+    "fields": {
+      "Fecha": "2025-09-13",
+      "Estado General": "Mejorando",
+      "Resumen": "EVOLUCIÓN POSITIVA\n• Apertura ocular espontánea\n• Respuesta motora bilateral\n• Reducción de sedación (Remifentanilo 9→3)\n• Suspensión de noradrenalina\n• Cambio esquema antibiótico",
+      "Valores Críticos": "Post-quirúrgico:\n• Hemoglobina: 8.3 g/dL (baja)\n• Valores renales mejorando post-diálisis",
+      "Próximas 24h": "Evaluación para traqueostomía\nContinuar reducción de sedación\nHemodiálisis programada",
+      "Generado Por": "Manual"
+    }
+  },
+  {
+    "id": "reczzm98BxwFwJQwp",
+    "createdTime": "2025-09-16T17:05:40.000Z",
+    "fields": {
+      "Fecha": "2025-09-16"
+    }
+  }
+]

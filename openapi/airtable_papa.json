@@ -1,0 +1,778 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Airtable PAPA API",
+    "description": "Optimized API for clinical data in Airtable base appDyoj7Qog7rlPE4",
+    "version": "v1.1.0",
+    "x-optimized-for": "30-operations-limit"
+  },
+  "servers": [
+    { 
+      "url": "https://api.airtable.com/v0/appDyoj7Qog7rlPE4",
+      "description": "Airtable API v0"
+    }
+  ],
+  "components": {
+    "securitySchemes": {
+      "airtableApiKey": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "Airtable API Key",
+        "description": "Use your Airtable API key with 'Bearer ' prefix"
+      }
+    },
+    "parameters": {
+      "recordId": {
+        "name": "recordId",
+        "in": "path",
+        "required": true,
+        "schema": { "type": "string" },
+        "description": "ID of the record to fetch"
+      },
+      "pageSize": {
+        "name": "pageSize",
+        "in": "query",
+        "schema": { 
+          "type": "integer", 
+          "default": 100, 
+          "minimum": 1, 
+          "maximum": 100 
+        },
+        "description": "Number of records to return (max 100)"
+      },
+      "offset": {
+        "name": "offset",
+        "in": "query",
+        "schema": { "type": "string" },
+        "description": "Pagination token for the next page of results"
+      },
+      "filterByFormula": {
+        "name": "filterByFormula",
+        "in": "query",
+        "schema": { "type": "string" },
+        "description": "Airtable formula used to filter records"
+      },
+      "sortField0": {
+        "name": "sort[0][field]",
+        "in": "query",
+        "schema": { "type": "string" },
+        "description": "Field to sort by"
+      },
+      "sortDir0": {
+        "name": "sort[0][direction]",
+        "in": "query",
+        "schema": { "type": "string", "enum": ["asc", "desc"] },
+        "description": "Sort direction (asc or desc)"
+      }
+    },
+    "schemas": {
+      "Record": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "fields": { "type": "object", "additionalProperties": true },
+          "createdTime": { "type": "string", "format": "date-time" }
+        },
+        "required": ["id", "fields"]
+      },
+      "ListResponse": {
+        "type": "object",
+        "properties": {
+          "records": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/Record" }
+          },
+          "offset": { "type": "string" }
+        },
+        "required": ["records"]
+      },
+      "CreateOrUpdateBody": {
+        "type": "object",
+        "properties": {
+          "fields": {
+            "type": "object",
+            "description": "Airtable record fields (column names as keys)",
+            "additionalProperties": true
+          },
+          "typecast": {
+            "type": "boolean",
+            "description": "If true, Airtable will attempt to coerce values to the correct type"
+          }
+        },
+        "required": ["fields"]
+      },
+      "DeleteResponse": {
+        "type": "object",
+        "properties": {
+          "deleted": { "type": "boolean" },
+          "id": { "type": "string" }
+        },
+        "required": ["deleted", "id"]
+      }
+    }
+  },
+  "security": [ { "airtableApiKey": [] } ],
+  "paths": {
+    "/tblxyRE7kjHhelK0C": {
+      "get": {
+        "operationId": "listActualizacionesDiarias",
+        "summary": "List Actualizaciones Diarias (Read-only)",
+        "description": "Read-only access to daily updates. Filter using filterByFormula.",
+        "parameters": [
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": { "type": "integer", "default": 100, "minimum": 1, "maximum": 100 },
+            "description": "Number of records to return (max 100)"
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Pagination token for the next page of results"
+          },
+          {
+            "name": "filterByFormula",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Airtable formula used to filter records"
+          },
+          {
+            "name": "sort[0][field]",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Field to sort by"
+          },
+          {
+            "name": "sort[0][direction]",
+            "in": "query",
+            "schema": { "type": "string", "enum": ["asc", "desc"] },
+            "description": "Sort direction (asc or desc)"
+          }
+        ],
+        "responses": {
+          "200": { "description": "Success", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/ListResponse" } } } }
+        }
+      }
+    },
+    "/tblxyRE7kjHhelK0C/{recordId}": {
+      "get": {
+        "operationId": "getActualizacionDiaria",
+        "summary": "Get single Actualizaciones Diarias record (Read-only)",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "ID of the record to fetch"
+          }
+        ],
+        "responses": {
+          "200": { "description": "Success", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Record" } } } }
+        }
+      }
+    },
+
+    "/tblFaflNFwUHf18am": {
+      "get": {
+        "operationId": "listEventosMedicos",
+        "summary": "List Eventos Médicos",
+        "parameters": [
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": { "type": "integer", "default": 100, "minimum": 1, "maximum": 100 },
+            "description": "Number of records to return (max 100)"
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Pagination token for the next page of results"
+          },
+          {
+            "name": "filterByFormula",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Airtable formula used to filter records"
+          },
+          {
+            "name": "sort[0][field]",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Field to sort by"
+          },
+          {
+            "name": "sort[0][direction]",
+            "in": "query",
+            "schema": { "type": "string", "enum": ["asc", "desc"] },
+            "description": "Sort direction (asc or desc)"
+          }
+        ],
+        "responses": {
+          "200": { "description": "Success", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/ListResponse" } } } }
+        }
+      },
+      "post": {
+        "operationId": "createEventoMedico",
+        "summary": "Create Eventos Médicos record",
+        "requestBody": { "required": true, "content": { "application/json": { "schema": { "$ref": "#/components/schemas/CreateOrUpdateBody" } } } },
+        "responses": {
+          "200": { "description": "Created", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Record" } } } }
+        }
+      }
+    },
+    "/tblFaflNFwUHf18am/{recordId}": {
+      "get": {
+        "operationId": "getEventoMedico",
+        "summary": "Get Eventos Médicos record",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "ID of the record to fetch"
+          }
+        ],
+        "responses": {
+          "200": { "description": "Success", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Record" } } } }
+        }
+      },
+      "patch": {
+        "operationId": "updateEventoMedico",
+        "summary": "Update Eventos Médicos record",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "ID of the record to fetch"
+          }
+        ],
+        "requestBody": { "required": true, "content": { "application/json": { "schema": { "$ref": "#/components/schemas/CreateOrUpdateBody" } } } },
+        "responses": {
+          "200": { "description": "Updated", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Record" } } } }
+        }
+      },
+      "delete": {
+        "operationId": "deleteEventoMedico",
+        "summary": "Delete Eventos Médicos record",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "ID of the record to fetch"
+          }
+        ],
+        "responses": {
+          "200": { "description": "Deleted", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/DeleteResponse" } } } }
+        }
+      }
+    },
+
+    "/tblzchkqYBUtkWEHY": {
+      "get": {
+        "operationId": "listLaboratorios",
+        "summary": "List Laboratorios",
+        "parameters": [
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": { "type": "integer", "default": 100, "minimum": 1, "maximum": 100 },
+            "description": "Number of records to return (max 100)"
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Pagination token for the next page of results"
+          },
+          {
+            "name": "filterByFormula",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Airtable formula used to filter records"
+          },
+          {
+            "name": "sort[0][field]",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Field to sort by"
+          },
+          {
+            "name": "sort[0][direction]",
+            "in": "query",
+            "schema": { "type": "string", "enum": ["asc", "desc"] },
+            "description": "Sort direction (asc or desc)"
+          }
+        ],
+        "responses": {
+          "200": { "description": "Success", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/ListResponse" } } } }
+        }
+      },
+      "post": {
+        "operationId": "createLaboratorio",
+        "summary": "Create Laboratorios record",
+        "requestBody": { "required": true, "content": { "application/json": { "schema": { "$ref": "#/components/schemas/CreateOrUpdateBody" } } } },
+        "responses": {
+          "200": { "description": "Created", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Record" } } } }
+        }
+      }
+    },
+    "/tblzchkqYBUtkWEHY/{recordId}": {
+      "get": {
+        "operationId": "getLaboratorio",
+        "summary": "Get Laboratorios record",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "ID of the record to fetch"
+          }
+        ],
+        "responses": {
+          "200": { "description": "Success", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Record" } } } }
+        }
+      },
+      "patch": {
+        "operationId": "updateLaboratorio",
+        "summary": "Update Laboratorios record",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "ID of the record to fetch"
+          }
+        ],
+        "requestBody": { "required": true, "content": { "application/json": { "schema": { "$ref": "#/components/schemas/CreateOrUpdateBody" } } } },
+        "responses": {
+          "200": { "description": "Updated", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Record" } } } }
+        }
+      },
+      "delete": {
+        "operationId": "deleteLaboratorio",
+        "summary": "Delete Laboratorios record",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "ID of the record to fetch"
+          }
+        ],
+        "responses": {
+          "200": { "description": "Deleted", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/DeleteResponse" } } } }
+        }
+      }
+    },
+
+    "/tblbhAOs6LsFcFeFN": {
+      "get": {
+        "operationId": "listMedicamentos",
+        "summary": "List Medicamentos",
+        "description": "List medication records with filtering and pagination",
+        "parameters": [
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": { "type": "integer", "default": 100, "minimum": 1, "maximum": 100 },
+            "description": "Number of records to return (max 100)"
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Pagination token for the next page of results"
+          },
+          {
+            "name": "filterByFormula",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Airtable formula used to filter records"
+          },
+          {
+            "name": "sort[0][field]",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Field to sort by"
+          },
+          {
+            "name": "sort[0][direction]",
+            "in": "query",
+            "schema": { "type": "string", "enum": ["asc", "desc"] },
+            "description": "Sort direction (asc or desc)"
+          }
+        ],
+        "responses": {
+          "200": { "description": "Success", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/ListResponse" } } } }
+        }
+      },
+      "post": {
+        "operationId": "createMedicamento",
+        "summary": "Create Medicamentos record",
+        "description": "Add a new medication record. Updates/deletes not available through this API.",
+        "requestBody": { 
+          "required": true, 
+          "content": { 
+            "application/json": { 
+              "schema": { 
+                "$ref": "#/components/schemas/CreateOrUpdateBody" 
+              } 
+            } 
+          } 
+        },
+        "responses": {
+          "200": { "description": "Created", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Record" } } } }
+        }
+      }
+    },
+    "/tblbhAOs6LsFcFeFN/{recordId}": {
+      "get": {
+        "operationId": "getMedicamento",
+        "summary": "Get single Medicamentos record",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "ID of the record to fetch"
+          }
+        ],
+        "responses": {
+          "200": { "description": "Success", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Record" } } } }
+        }
+      }
+    },
+
+    "/tblvagJrLVHfwOb5R": {
+      "get": {
+        "operationId": "listDialisis",
+        "summary": "List Diálisis (Read-only)",
+        "description": "Read-only access to dialysis records. Filter using filterByFormula.",
+        "parameters": [
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": { "type": "integer", "default": 100, "minimum": 1, "maximum": 100 },
+            "description": "Number of records to return (max 100)"
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Pagination token for the next page of results"
+          },
+          {
+            "name": "filterByFormula",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Airtable formula used to filter records"
+          },
+          {
+            "name": "sort[0][field]",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Field to sort by"
+          },
+          {
+            "name": "sort[0][direction]",
+            "in": "query",
+            "schema": { "type": "string", "enum": ["asc", "desc"] },
+            "description": "Sort direction (asc or desc)"
+          }
+        ],
+        "responses": {
+          "200": { "description": "Success", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/ListResponse" } } } }
+        }
+      }
+    },
+    "/tblvagJrLVHfwOb5R/{recordId}": {
+      "get": {
+        "operationId": "getDialisis",
+        "summary": "Get single Diálisis record (Read-only)",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "ID of the record to fetch"
+          }
+        ],
+        "responses": {
+          "200": { "description": "Success", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Record" } } } }
+        }
+      }
+    },
+
+    "/tblzlZFtzDYhmL12A": {
+      "get": {
+        "operationId": "listMedicos",
+        "summary": "List Médicos",
+        "description": "List healthcare providers with filtering and pagination",
+        "parameters": [
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": { "type": "integer", "default": 100, "minimum": 1, "maximum": 100 },
+            "description": "Number of records to return (max 100)"
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Pagination token for the next page of results"
+          },
+          {
+            "name": "filterByFormula",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Airtable formula used to filter records"
+          },
+          {
+            "name": "sort[0][field]",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Field to sort by"
+          },
+          {
+            "name": "sort[0][direction]",
+            "in": "query",
+            "schema": { "type": "string", "enum": ["asc", "desc"] },
+            "description": "Sort direction (asc or desc)"
+          }
+        ],
+        "responses": {
+          "200": { "description": "Success", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/ListResponse" } } } }
+        }
+      },
+      "post": {
+        "operationId": "createMedico",
+        "summary": "Create Médicos record",
+        "description": "Add a new healthcare provider. Updates/deletes not available through this API.",
+        "requestBody": { 
+          "required": true, 
+          "content": { 
+            "application/json": { 
+              "schema": { 
+                "$ref": "#/components/schemas/CreateOrUpdateBody" 
+              } 
+            } 
+          } 
+        },
+        "responses": {
+          "200": { "description": "Created", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Record" } } } }
+        }
+      }
+    },
+    "/tblzlZFtzDYhmL12A/{recordId}": {
+      "get": {
+        "operationId": "getMedico",
+        "summary": "Get single Médicos record",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "ID of the record to fetch"
+          }
+        ],
+        "responses": {
+          "200": { "description": "Success", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Record" } } } }
+        }
+      }
+    },
+
+    "/tblKF9NxoEB4Mzr3G": {
+      "get": {
+        "operationId": "listInstituciones",
+        "summary": "List Instituciones",
+        "description": "List healthcare institutions with filtering and pagination",
+        "parameters": [
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": { "type": "integer", "default": 100, "minimum": 1, "maximum": 100 },
+            "description": "Number of records to return (max 100)"
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Pagination token for the next page of results"
+          },
+          {
+            "name": "filterByFormula",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Airtable formula used to filter records"
+          },
+          {
+            "name": "sort[0][field]",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Field to sort by"
+          },
+          {
+            "name": "sort[0][direction]",
+            "in": "query",
+            "schema": { "type": "string", "enum": ["asc", "desc"] },
+            "description": "Sort direction (asc or desc)"
+          }
+        ],
+        "responses": {
+          "200": { "description": "Success", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/ListResponse" } } } }
+        }
+      },
+      "post": {
+        "operationId": "createInstitucion",
+        "summary": "Create Instituciones record",
+        "description": "Add a new healthcare institution. Updates/deletes not available through this API.",
+        "requestBody": { 
+          "required": true, 
+          "content": { 
+            "application/json": { 
+              "schema": { 
+                "$ref": "#/components/schemas/CreateOrUpdateBody" 
+              } 
+            } 
+          } 
+        },
+        "responses": {
+          "200": { "description": "Created", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Record" } } } }
+        }
+      }
+    },
+    "/tblKF9NxoEB4Mzr3G/{recordId}": {
+      "get": {
+        "operationId": "getInstitucion",
+        "summary": "Get single Instituciones record",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "ID of the record to fetch"
+          }
+        ],
+        "responses": {
+          "200": { "description": "Success", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Record" } } } }
+        }
+      }
+    },
+
+    "/tblQahASwhGiuoQTY": {
+      "get": {
+        "operationId": "listResumenDiario",
+        "summary": "List Resumen Diario",
+        "parameters": [
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": { "type": "integer", "default": 100, "minimum": 1, "maximum": 100 },
+            "description": "Number of records to return (max 100)"
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Pagination token for the next page of results"
+          },
+          {
+            "name": "filterByFormula",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Airtable formula used to filter records"
+          },
+          {
+            "name": "sort[0][field]",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Field to sort by"
+          },
+          {
+            "name": "sort[0][direction]",
+            "in": "query",
+            "schema": { "type": "string", "enum": ["asc", "desc"] },
+            "description": "Sort direction (asc or desc)"
+          }
+        ],
+        "responses": {
+          "200": { "description": "Success", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/ListResponse" } } } }
+        }
+      },
+      "post": {
+        "operationId": "createResumenDiario",
+        "summary": "Create Resumen Diario record",
+        "requestBody": { "required": true, "content": { "application/json": { "schema": { "$ref": "#/components/schemas/CreateOrUpdateBody" } } } },
+        "responses": {
+          "200": { "description": "Created", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Record" } } } }
+        }
+      }
+    },
+    "/tblQahASwhGiuoQTY/{recordId}": {
+      "get": {
+        "operationId": "getResumenDiario",
+        "summary": "Get Resumen Diario record",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "ID of the record to fetch"
+          }
+        ],
+        "responses": {
+          "200": { "description": "Success", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Record" } } } }
+        }
+      },
+      "patch": {
+        "operationId": "updateResumenDiario",
+        "summary": "Update Resumen Diario record",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "ID of the record to fetch"
+          }
+        ],
+        "requestBody": { "required": true, "content": { "application/json": { "schema": { "$ref": "#/components/schemas/CreateOrUpdateBody" } } } },
+        "responses": {
+          "200": { "description": "Updated", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Record" } } } }
+        }
+      },
+      "delete": {
+        "operationId": "deleteResumenDiario",
+        "summary": "Delete Resumen Diario record",
+        "parameters": [
+          {
+            "name": "recordId",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "ID of the record to fetch"
+          }
+        ],
+        "responses": {
+          "200": { "description": "Deleted", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/DeleteResponse" } } } }
+        }
+      }
+    }
+  }
+}

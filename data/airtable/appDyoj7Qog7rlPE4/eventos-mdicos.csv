@@ -1,0 +1,53 @@
+id,createdTime,Fecha,Hora,Tipo,Título,Descripción,Urgencia,Archivos,Creado vía,Tags,Institución,Médico,Valores Lab,Medicamentos Relacionados,Sesión Diálisis,Laboratorios,Medicamentos,Diálisis,Días Desde Evento,Requiere Seguimiento
+rec5hQWJxUMQRIvBM,2025-09-16T10:10:29.000Z,2025-09-14,08:12,,Radiografía de Tórax,"Informe de radiografía de tórax (AP) realizado. Mediastino centrado, sombra cardiaca normal, hilios simétricos, campos pulmonares sin imágenes de procesos evolutivos, senos costofrénicos libres, presencia de tubo endotraqueal y vía central a la derecha, sonda nasogástrica, secuela de fracturas costales a la izquierda.",,,,,,,,,,,,,2,
+rec63aDWgpbQa6Mw0,2025-09-16T17:01:31.000Z,2025-09-16,19:01,,Diálisis en posición sentada,Los médicos van a hacerle la diálisis ya sentado porque no ven mejoría en lo neurológico y quieren moverle y que empiece a reaccionar.,,,,,,,,,,,,,0,
+rec73VY1OmbBk1v4g,2025-09-16T10:10:30.000Z,2025-09-13,07:32,,Radiografía de Tórax,Informe: Cardiomegalia. Hilios simétricos. Campos pulmonares sin imágenes de procesos evolutivos. Senos costofrénicos libres. Presencia de tubo endotraqueal y de vía central yugular izquierda.,,,,,,,,,,,,,3,
+rec7xgt5jpiCgpFAO,2025-09-16T17:05:40.000Z,2025-09-16,19:05,,Triotraquia Octovia Exitosa,La triotraquia octovia fue exitosa. Se han realizado todas las últimas novedades para informar a la familia.,,,,,,,,,,,,,0,
+rec8UntThoiYmnAcQ,2025-09-16T10:10:31.000Z,2025-09-14,18:02,,Radiografía de abdomen simple (AP),"Informe de radiografía de abdomen simple: Riñones de forma, ubicación y tamaño normal. Sombra hepática y silueta de los músculos ileopsoas normales. Gases intestinales con distribución normal. Sonda nasogástrica bien posicionada. Estructuras óseas no modificadas. No se aprecia imágenes densas de cálculos opacos a rayos, ni calcificaciones abdominales.",,,,,,,,,,,,,2,
+rec8nhFwxuCG0BxiY,2025-09-16T02:55:43.000Z,2025-09-10,17:00,Diálisis,Hemodiálisis en UCI,"Primera diálisis post-cirugía
+Duración: 4 horas (2h + recolocación + 2h)
+Complicación con acceso vascular
+Completada exitosamente",alto,,Sistema,"[""UCI"", ""Diálisis"", ""IRC""]",,,,,,,,,6,
+recAQHnfsGaEEp3EU,2025-09-16T02:39:37.000Z,2024-09-27,14:00,Procedimiento,Creación fístula arteriovenosa,Acceso vascular en miembro superior izquierdo para diálisis,alto,,Sistema,"[""IRC"", ""Diálisis""]",,,,,,,,,354,
+recGCriVM1JmdK9T1,2025-09-16T02:39:57.000Z,2025-09-14,10:12,Diálisis,Diálisis UCI - Mejoría valores,Disminución de urea y creatinina después de hemodiálisis,medio,,Sistema,"[""UCI"", ""Diálisis"", ""IRC""]","[""recFlCZ8JBOC8QarE""]",,,,,,,,2,
+recGRjBu7N7BjUjhl,2025-09-16T06:11:23.000Z,2025-09-14,18:02,,Radiografía de abdomen simple (AP),"Informe de radiografía: Riñones de forma, ubicación y tamaño normal. Sombra hepática y silueta de los músculos ileopsoas normales. Gases intestinales con distribución normal. Sonda nasogástrica bien posicionada. Estructuras óseas no modificadas. No se aprecia imágenes densas de cálculos opacos a rayos, ni calcificaciones abdominales.",,,,,,,,,,,,,2,
+recGVpqGaG84nweBM,2025-09-16T06:09:47.000Z,2025-09-13,22:07,,Solicitud de Radiografía de Tórax,"Solicitud realizada por la Dra. Orue Alcaraz, Lorena.",,,,,,,,,,,,,3,
+recIckXmKRemBvAvl,2025-09-16T02:39:55.000Z,2025-09-13,13:03,Síntoma,EVOLUCIÓN POSITIVA - Apertura ocular,"Abre ambos ojos completamente, respuesta a estímulos",medio,,Sistema,"[""UCI"", ""Neurología""]",,,,,,,,,3,
+recMLBEtB32FhrnGq,2025-09-16T06:03:52.000Z,2025-09-16,2025-09-13T07:32:00,,Radiografía de Tórax (AP),Informe de radiografía de tórax realizado el 13-09-25. Diagnóstico: Cardiomegalia. Hilios simétricos. Campos pulmonares sin imágenes de procesos evolutivos. Senos costofrénicos libres. Presencia de tubo endotraqueal y de vía central yugular izquierda.,,,,,,,,,,,,,0,
+recOCFBXR6xBE4NRD,2025-09-16T06:12:34.000Z,2025-09-16,08:12,,Traqueostomía exitosa,"La traqueostomía salió bien. El paciente respira solo, sin tubos ni máquinas, solo oxígeno.",,,,,,,,,,,,,0,
+recRlmFTUJE0Uf91d,2025-09-16T02:55:31.000Z,2024-10-03,15:00,Diálisis,INICIO HEMODIÁLISIS,"Primera sesión de diálisis
+Programa: 3 veces por semana
+Acceso: Catéter temporal (fístula en maduración)",alto,,Sistema,"[""IRC"", ""Diálisis""]",,,,,,,,,348,
+recScJlVK13t015Wi,2025-09-16T02:39:56.000Z,2025-09-13,13:39,Síntoma,Respuesta motora bilateral,Movimientos en ambos lados del cuerpo confirmados,medio,,Sistema,"[""UCI"", ""Neurología""]",,,,,,,,,3,
+recUqEgbfz01rhFOx,2025-09-16T02:39:47.000Z,2025-09-09,10:52,Síntoma,TCE SEVERO - Caída con traumatismo,Hematoma intracerebral 20cm³ + subdural izquierdo. Ambulancia tardó 40 min,crítico,,Sistema,"[""TCE"", ""Neurología"", ""UCI""]",,,,,,,,,7,
+recWZ6zGao1GkasQw,2025-09-16T02:55:45.000Z,2025-09-13,13:03,Síntoma,✅ EVOLUCIÓN POSITIVA - Apertura ocular,"HITO IMPORTANTE
+Paciente abre ambos ojos completamente
+Respuesta a estímulos verbales
+Testigo: Familiar presente",medio,,Sistema,"[""UCI"", ""Neurología""]",,,,,,,,,3,
+recWy2T0ZlWljgGzY,2025-09-16T05:26:13.000Z,,,,,,,,,,,,,,,,,,"{""specialValue"": ""NaN""}",
+recXLb995rcLmFdK4,2025-09-16T05:29:43.000Z,,,,,,,,,,,,,,,,,,"{""specialValue"": ""NaN""}",
+recZAstQwgk6KkRMm,2025-09-16T02:55:26.000Z,2024-09-27,14:00,Procedimiento,Creación fístula arteriovenosa,"Cirugía vascular - Acceso para hemodiálisis
+Localización: Miembro superior izquierdo
+Sin complicaciones inmediatas",alto,,Sistema,"[""IRC"", ""Diálisis""]",,,,,,,,,354,
+recZdDDtj8OopG1xp,2025-09-16T06:06:02.000Z,2025-09-16,08:12,,Radiografía de Tórax (AP),"Informe de radiografía de tórax: Mediastino centrado, sombra cardiaca normal, hilios simétricos, campos pulmonares sin imágenes de procesos evolutivos, senos costofrénicos libres. Presencia de tubo endotraqueal y vía central a la derecha, sonda nasogástrica.",,,,,,,,,,,,,0,
+recaUGtWke0Wcb3Jr,2025-09-16T02:55:23.000Z,2024-09-10,17:00,Consulta,Diagnóstico IRC Estadio 5,"Dr. Darío Cuevas - Nefrología
+TFG: 6% (crítico)
+Recomendación: Diálisis urgente
+Paciente solicita alternativa dietética",crítico,,Sistema,"[""IRC"", ""Nefrología""]",,,,,,,,,371,
+reci0cPJzf6gN3F8F,2025-09-16T02:39:35.000Z,2024-09-10,17:00,Consulta,Diagnóstico IRC Estadio 5,"Dr. Darío Cuevas - TFG 6%, requiere diálisis urgente",crítico,,Sistema,"[""IRC"", ""Nefrología""]",,,,,,,,,371,
+reckHfSHCGOtwmUmV,2025-09-16T05:38:53.000Z,,,,,,,,,,,,,,,,,,"{""specialValue"": ""NaN""}",
+recoSNsPkeUxxnfka,2025-09-16T02:55:46.000Z,2025-09-13,13:39,Síntoma,Respuesta motora bilateral,"Movimientos en ambos lados del cuerpo
+Respuesta a comandos verbales
+Buen pronóstico neurológico",medio,,Sistema,"[""UCI"", ""Neurología""]",,,,,,,,,3,
+recoVpgkuKrr9g4mJ,2025-09-16T10:10:28.000Z,2025-09-14,18:02,,Radiografía de abdomen simple (AP),"Informe de radiografía: Riñones de forma, ubicación y tamaño normal. Sombra hepática y silueta de los músculos ileopsoas normales. Gases intestinales con distribución normal. Sonda nasogástrica bien posicionada. Estructuras óseas no modificadas. No se aprecia imágenes densas de cálculos opacos a rayos, ni calcificaciones abdominales.",,,,,,,,,,,,,2,
+recorj5eBpxXazZSF,2025-09-16T02:41:00.000Z,2025-09-09,10:52,Síntoma,TCE SEVERO - Caída con traumatismo,Hematoma intracerebral 20cm³ + subdural izquierdo. Ambulancia tardó 40 min,crítico,,Sistema,"[""TCE"", ""Neurología"", ""UCI""]",,,,,,,,,7,
+recp98JjmzgpYeZbz,2025-09-16T02:39:40.000Z,2024-10-03,15:00,Diálisis,INICIO HEMODIÁLISIS,"Primera sesión de diálisis, programa 3x/semana",alto,,Sistema,"[""IRC"", ""Diálisis""]",,,,,,,,,348,
+recpdViq6naJPdm1Q,2025-09-16T02:55:39.000Z,2025-09-09,10:52,Síntoma,⚠️ TCE SEVERO - Traumatismo craneal,"🚨 EVENTO CRÍTICO
+Caída con traumatismo craneoencefálico severo
+Hematoma intracerebral: 20 cm³
+Hematoma subdural izquierdo
+Ambulancia tardó 40 minutos
+Traslado: Sanatorio La Costa",crítico,,Sistema,"[""TCE"", ""Neurología"", ""UCI""]",,,,,,,,,7,
+recpwz5MC6voS1cjT,2025-09-16T05:37:29.000Z,,,,,,,,,,,,,,,,,,"{""specialValue"": ""NaN""}",
+recv0zBg0L8Jkso7P,2025-09-16T06:09:46.000Z,2025-09-14,08:12,,Radiografía de Tórax (AP),"Informe de radiografía de tórax: Mediastino centrado, sombra cardiaca con dimensiones normales, hilios simétricos, campos pulmonares sin imágenes de procesos evolutivos, senos costofrénicos libres, presencia de tubo endotraqueal y de vía central.",,,,,,,,,,,,,2,
+recxxNvTovJIoFOiY,2025-09-16T06:11:21.000Z,2025-09-14,18:02,,Radiografía Abdominal,"Informe de radiografía abdominal (AP) realizado el 14-09-25. Hallazgos: Riñones de forma, ubicación y tamaño normales. Sombra hepática normal. Distribución normal de gases intestinales. Sonda nasogástrica bien posicionada. Estructuras óseas no modificadas. No se observan imágenes densas de piedras opacas ni calcificaciones abdominales.",,,,,,,,,,,,,2,

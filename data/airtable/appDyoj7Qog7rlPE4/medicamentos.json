@@ -1,0 +1,61 @@
+[
+  {
+    "id": "rec1aIQ6PLM6Mrzk2",
+    "createdTime": "2025-09-16T02:55:51.000Z",
+    "fields": {
+      "Medicamento": "Remifentanilo",
+      "Tipo": "Analgesia",
+      "Fecha Inicio": "2025-09-09",
+      "Dosis Inicial": "9 mcg/kg/h",
+      "Dosis Actual": "3 mcg/kg/h",
+      "Vía": "IV",
+      "Notas": "Analgesia en UCI, reducción progresiva",
+      "Estado": "✅ Activo",
+      "Días Activo": 7
+    }
+  },
+  {
+    "id": "recEAD71kALUYdGtS",
+    "createdTime": "2025-09-16T02:55:53.000Z",
+    "fields": {
+      "Medicamento": "Antibiótico",
+      "Tipo": "Antibiótico",
+      "Fecha Inicio": "2025-09-13",
+      "Dosis Actual": "Según protocolo UCI",
+      "Vía": "IV",
+      "Notas": "Cambio de esquema antibiótico el 13/09",
+      "Estado": "✅ Activo",
+      "Días Activo": 3
+    }
+  },
+  {
+    "id": "recGp0pjmj4EuhMsQ",
+    "createdTime": "2025-09-16T02:55:50.000Z",
+    "fields": {
+      "Medicamento": "Propofol",
+      "Tipo": "Sedación",
+      "Fecha Inicio": "2025-09-09",
+      "Dosis Inicial": "Alta dosis",
+      "Dosis Actual": "Reducción progresiva",
+      "Vía": "IV",
+      "Notas": "Sedación en UCI post-craniectomía",
+      "Estado": "✅ Activo",
+      "Días Activo": 7
+    }
+  },
+  {
+    "id": "recX4MA9vcSs5bex5",
+    "createdTime": "2025-09-16T02:55:52.000Z",
+    "fields": {
+      "Medicamento": "Noradrenalina",
+      "Tipo": "Vasoactivo",
+      "Fecha Inicio": "2025-09-09",
+      "Fecha Fin": "2025-09-13",
+      "Dosis Inicial": "Según PAM",
+      "Vía": "IV",
+      "Notas": "Soporte vasoactivo, suspendido el 13/09",
+      "Estado": "❌ Suspendido",
+      "Días Activo": 4
+    }
+  }
+]

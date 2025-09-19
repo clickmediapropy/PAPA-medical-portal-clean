@@ -1,0 +1,34 @@
+[
+  {
+    "id": "recAszMIfeXkGIlZW",
+    "createdTime": "2025-09-16T02:55:27.000Z",
+    "fields": {
+      "Fecha": "2024-09-27",
+      "Hora Inicio": "14:00",
+      "Tipo": "Hemodiálisis",
+      "Acceso": "Catéter"
+    }
+  },
+  {
+    "id": "recHCGDVfknifVPDO",
+    "createdTime": "2025-09-16T02:55:32.000Z",
+    "fields": {
+      "Fecha": "2024-10-03",
+      "Hora Inicio": "15:00",
+      "Tipo": "Hemodiálisis",
+      "Acceso": "Catéter"
+    }
+  },
+  {
+    "id": "recxWBxPfms0uIt9o",
+    "createdTime": "2025-09-16T02:55:44.000Z",
+    "fields": {
+      "Fecha": "2025-09-10",
+      "Hora Inicio": "17:00",
+      "Duración": 14400,
+      "Tipo": "Hemodiálisis",
+      "Acceso": "Fístula AV",
+      "Complicaciones": "Problema con acceso vascular, requirió recolocación"
+    }
+  }
+]

@@ -1,0 +1,459 @@
+[
+  {
+    "id": "rec5hQWJxUMQRIvBM",
+    "createdTime": "2025-09-16T10:10:29.000Z",
+    "fields": {
+      "Fecha": "2025-09-14",
+      "Hora": "08:12",
+      "Título": "Radiografía de Tórax",
+      "Descripción": "Informe de radiografía de tórax (AP) realizado. Mediastino centrado, sombra cardiaca normal, hilios simétricos, campos pulmonares sin imágenes de procesos evolutivos, senos costofrénicos libres, presencia de tubo endotraqueal y vía central a la derecha, sonda nasogástrica, secuela de fracturas costales a la izquierda.",
+      "Días Desde Evento": 2
+    }
+  },
+  {
+    "id": "rec63aDWgpbQa6Mw0",
+    "createdTime": "2025-09-16T17:01:31.000Z",
+    "fields": {
+      "Fecha": "2025-09-16",
+      "Hora": "19:01",
+      "Título": "Diálisis en posición sentada",
+      "Descripción": "Los médicos van a hacerle la diálisis ya sentado porque no ven mejoría en lo neurológico y quieren moverle y que empiece a reaccionar.",
+      "Días Desde Evento": 0
+    }
+  },
+  {
+    "id": "rec73VY1OmbBk1v4g",
+    "createdTime": "2025-09-16T10:10:30.000Z",
+    "fields": {
+      "Fecha": "2025-09-13",
+      "Hora": "07:32",
+      "Título": "Radiografía de Tórax",
+      "Descripción": "Informe: Cardiomegalia. Hilios simétricos. Campos pulmonares sin imágenes de procesos evolutivos. Senos costofrénicos libres. Presencia de tubo endotraqueal y de vía central yugular izquierda.",
+      "Días Desde Evento": 3
+    }
+  },
+  {
+    "id": "rec7xgt5jpiCgpFAO",
+    "createdTime": "2025-09-16T17:05:40.000Z",
+    "fields": {
+      "Fecha": "2025-09-16",
+      "Hora": "19:05",
+      "Título": "Triotraquia Octovia Exitosa",
+      "Descripción": "La triotraquia octovia fue exitosa. Se han realizado todas las últimas novedades para informar a la familia.",
+      "Días Desde Evento": 0
+    }
+  },
+  {
+    "id": "rec8UntThoiYmnAcQ",
+    "createdTime": "2025-09-16T10:10:31.000Z",
+    "fields": {
+      "Fecha": "2025-09-14",
+      "Hora": "18:02",
+      "Título": "Radiografía de abdomen simple (AP)",
+      "Descripción": "Informe de radiografía de abdomen simple: Riñones de forma, ubicación y tamaño normal. Sombra hepática y silueta de los músculos ileopsoas normales. Gases intestinales con distribución normal. Sonda nasogástrica bien posicionada. Estructuras óseas no modificadas. No se aprecia imágenes densas de cálculos opacos a rayos, ni calcificaciones abdominales.",
+      "Días Desde Evento": 2
+    }
+  },
+  {
+    "id": "rec8nhFwxuCG0BxiY",
+    "createdTime": "2025-09-16T02:55:43.000Z",
+    "fields": {
+      "Fecha": "2025-09-10",
+      "Hora": "17:00",
+      "Tipo": "Diálisis",
+      "Título": "Hemodiálisis en UCI",
+      "Descripción": "Primera diálisis post-cirugía\nDuración: 4 horas (2h + recolocación + 2h)\nComplicación con acceso vascular\nCompletada exitosamente",
+      "Urgencia": "alto",
+      "Creado vía": "Sistema",
+      "Tags": [
+        "UCI",
+        "Diálisis",
+        "IRC"
+      ],
+      "Días Desde Evento": 6
+    }
+  },
+  {
+    "id": "recAQHnfsGaEEp3EU",
+    "createdTime": "2025-09-16T02:39:37.000Z",
+    "fields": {
+      "Fecha": "2024-09-27",
+      "Hora": "14:00",
+      "Tipo": "Procedimiento",
+      "Título": "Creación fístula arteriovenosa",
+      "Descripción": "Acceso vascular en miembro superior izquierdo para diálisis",
+      "Urgencia": "alto",
+      "Creado vía": "Sistema",
+      "Tags": [
+        "IRC",
+        "Diálisis"
+      ],
+      "Días Desde Evento": 354
+    }
+  },
+  {
+    "id": "recGCriVM1JmdK9T1",
+    "createdTime": "2025-09-16T02:39:57.000Z",
+    "fields": {
+      "Fecha": "2025-09-14",
+      "Hora": "10:12",
+      "Tipo": "Diálisis",
+      "Título": "Diálisis UCI - Mejoría valores",
+      "Descripción": "Disminución de urea y creatinina después de hemodiálisis",
+      "Urgencia": "medio",
+      "Creado vía": "Sistema",
+      "Tags": [
+        "UCI",
+        "Diálisis",
+        "IRC"
+      ],
+      "Institución": [
+        "recFlCZ8JBOC8QarE"
+      ],
+      "Días Desde Evento": 2
+    }
+  },
+  {
+    "id": "recGRjBu7N7BjUjhl",
+    "createdTime": "2025-09-16T06:11:23.000Z",
+    "fields": {
+      "Fecha": "2025-09-14",
+      "Hora": "18:02",
+      "Título": "Radiografía de abdomen simple (AP)",
+      "Descripción": "Informe de radiografía: Riñones de forma, ubicación y tamaño normal. Sombra hepática y silueta de los músculos ileopsoas normales. Gases intestinales con distribución normal. Sonda nasogástrica bien posicionada. Estructuras óseas no modificadas. No se aprecia imágenes densas de cálculos opacos a rayos, ni calcificaciones abdominales.",
+      "Días Desde Evento": 2
+    }
+  },
+  {
+    "id": "recGVpqGaG84nweBM",
+    "createdTime": "2025-09-16T06:09:47.000Z",
+    "fields": {
+      "Fecha": "2025-09-13",
+      "Hora": "22:07",
+      "Título": "Solicitud de Radiografía de Tórax",
+      "Descripción": "Solicitud realizada por la Dra. Orue Alcaraz, Lorena.",
+      "Días Desde Evento": 3
+    }
+  },
+  {
+    "id": "recIckXmKRemBvAvl",
+    "createdTime": "2025-09-16T02:39:55.000Z",
+    "fields": {
+      "Fecha": "2025-09-13",
+      "Hora": "13:03",
+      "Tipo": "Síntoma",
+      "Título": "EVOLUCIÓN POSITIVA - Apertura ocular",
+      "Descripción": "Abre ambos ojos completamente, respuesta a estímulos",
+      "Urgencia": "medio",
+      "Creado vía": "Sistema",
+      "Tags": [
+        "UCI",
+        "Neurología"
+      ],
+      "Días Desde Evento": 3
+    }
+  },
+  {
+    "id": "recMLBEtB32FhrnGq",
+    "createdTime": "2025-09-16T06:03:52.000Z",
+    "fields": {
+      "Fecha": "2025-09-16",
+      "Hora": "2025-09-13T07:32:00",
+      "Título": "Radiografía de Tórax (AP)",
+      "Descripción": "Informe de radiografía de tórax realizado el 13-09-25. Diagnóstico: Cardiomegalia. Hilios simétricos. Campos pulmonares sin imágenes de procesos evolutivos. Senos costofrénicos libres. Presencia de tubo endotraqueal y de vía central yugular izquierda.",
+      "Días Desde Evento": 0
+    }
+  },
+  {
+    "id": "recOCFBXR6xBE4NRD",
+    "createdTime": "2025-09-16T06:12:34.000Z",
+    "fields": {
+      "Fecha": "2025-09-16",
+      "Hora": "08:12",
+      "Título": "Traqueostomía exitosa",
+      "Descripción": "La traqueostomía salió bien. El paciente respira solo, sin tubos ni máquinas, solo oxígeno.",
+      "Días Desde Evento": 0
+    }
+  },
+  {
+    "id": "recRlmFTUJE0Uf91d",
+    "createdTime": "2025-09-16T02:55:31.000Z",
+    "fields": {
+      "Fecha": "2024-10-03",
+      "Hora": "15:00",
+      "Tipo": "Diálisis",
+      "Título": "INICIO HEMODIÁLISIS",
+      "Descripción": "Primera sesión de diálisis\nPrograma: 3 veces por semana\nAcceso: Catéter temporal (fístula en maduración)",
+      "Urgencia": "alto",
+      "Creado vía": "Sistema",
+      "Tags": [
+        "IRC",
+        "Diálisis"
+      ],
+      "Días Desde Evento": 348
+    }
+  },
+  {
+    "id": "recScJlVK13t015Wi",
+    "createdTime": "2025-09-16T02:39:56.000Z",
+    "fields": {
+      "Fecha": "2025-09-13",
+      "Hora": "13:39",
+      "Tipo": "Síntoma",
+      "Título": "Respuesta motora bilateral",
+      "Descripción": "Movimientos en ambos lados del cuerpo confirmados",
+      "Urgencia": "medio",
+      "Creado vía": "Sistema",
+      "Tags": [
+        "UCI",
+        "Neurología"
+      ],
+      "Días Desde Evento": 3
+    }
+  },
+  {
+    "id": "recUqEgbfz01rhFOx",
+    "createdTime": "2025-09-16T02:39:47.000Z",
+    "fields": {
+      "Fecha": "2025-09-09",
+      "Hora": "10:52",
+      "Tipo": "Síntoma",
+      "Título": "TCE SEVERO - Caída con traumatismo",
+      "Descripción": "Hematoma intracerebral 20cm³ + subdural izquierdo. Ambulancia tardó 40 min",
+      "Urgencia": "crítico",
+      "Creado vía": "Sistema",
+      "Tags": [
+        "TCE",
+        "Neurología",
+        "UCI"
+      ],
+      "Días Desde Evento": 7
+    }
+  },
+  {
+    "id": "recWZ6zGao1GkasQw",
+    "createdTime": "2025-09-16T02:55:45.000Z",
+    "fields": {
+      "Fecha": "2025-09-13",
+      "Hora": "13:03",
+      "Tipo": "Síntoma",
+      "Título": "✅ EVOLUCIÓN POSITIVA - Apertura ocular",
+      "Descripción": "HITO IMPORTANTE\nPaciente abre ambos ojos completamente\nRespuesta a estímulos verbales\nTestigo: Familiar presente",
+      "Urgencia": "medio",
+      "Creado vía": "Sistema",
+      "Tags": [
+        "UCI",
+        "Neurología"
+      ],
+      "Días Desde Evento": 3
+    }
+  },
+  {
+    "id": "recWy2T0ZlWljgGzY",
+    "createdTime": "2025-09-16T05:26:13.000Z",
+    "fields": {
+      "Días Desde Evento": {
+        "specialValue": "NaN"
+      }
+    }
+  },
+  {
+    "id": "recXLb995rcLmFdK4",
+    "createdTime": "2025-09-16T05:29:43.000Z",
+    "fields": {
+      "Días Desde Evento": {
+        "specialValue": "NaN"
+      }
+    }
+  },
+  {
+    "id": "recZAstQwgk6KkRMm",
+    "createdTime": "2025-09-16T02:55:26.000Z",
+    "fields": {
+      "Fecha": "2024-09-27",
+      "Hora": "14:00",
+      "Tipo": "Procedimiento",
+      "Título": "Creación fístula arteriovenosa",
+      "Descripción": "Cirugía vascular - Acceso para hemodiálisis\nLocalización: Miembro superior izquierdo\nSin complicaciones inmediatas",
+      "Urgencia": "alto",
+      "Creado vía": "Sistema",
+      "Tags": [
+        "IRC",
+        "Diálisis"
+      ],
+      "Días Desde Evento": 354
+    }
+  },
+  {
+    "id": "recZdDDtj8OopG1xp",
+    "createdTime": "2025-09-16T06:06:02.000Z",
+    "fields": {
+      "Fecha": "2025-09-16",
+      "Hora": "08:12",
+      "Título": "Radiografía de Tórax (AP)",
+      "Descripción": "Informe de radiografía de tórax: Mediastino centrado, sombra cardiaca normal, hilios simétricos, campos pulmonares sin imágenes de procesos evolutivos, senos costofrénicos libres. Presencia de tubo endotraqueal y vía central a la derecha, sonda nasogástrica.",
+      "Días Desde Evento": 0
+    }
+  },
+  {
+    "id": "recaUGtWke0Wcb3Jr",
+    "createdTime": "2025-09-16T02:55:23.000Z",
+    "fields": {
+      "Fecha": "2024-09-10",
+      "Hora": "17:00",
+      "Tipo": "Consulta",
+      "Título": "Diagnóstico IRC Estadio 5",
+      "Descripción": "Dr. Darío Cuevas - Nefrología\nTFG: 6% (crítico)\nRecomendación: Diálisis urgente\nPaciente solicita alternativa dietética",
+      "Urgencia": "crítico",
+      "Creado vía": "Sistema",
+      "Tags": [
+        "IRC",
+        "Nefrología"
+      ],
+      "Días Desde Evento": 371
+    }
+  },
+  {
+    "id": "reci0cPJzf6gN3F8F",
+    "createdTime": "2025-09-16T02:39:35.000Z",
+    "fields": {
+      "Fecha": "2024-09-10",
+      "Hora": "17:00",
+      "Tipo": "Consulta",
+      "Título": "Diagnóstico IRC Estadio 5",
+      "Descripción": "Dr. Darío Cuevas - TFG 6%, requiere diálisis urgente",
+      "Urgencia": "crítico",
+      "Creado vía": "Sistema",
+      "Tags": [
+        "IRC",
+        "Nefrología"
+      ],
+      "Días Desde Evento": 371
+    }
+  },
+  {
+    "id": "reckHfSHCGOtwmUmV",
+    "createdTime": "2025-09-16T05:38:53.000Z",
+    "fields": {
+      "Días Desde Evento": {
+        "specialValue": "NaN"
+      }
+    }
+  },
+  {
+    "id": "recoSNsPkeUxxnfka",
+    "createdTime": "2025-09-16T02:55:46.000Z",
+    "fields": {
+      "Fecha": "2025-09-13",
+      "Hora": "13:39",
+      "Tipo": "Síntoma",
+      "Título": "Respuesta motora bilateral",
+      "Descripción": "Movimientos en ambos lados del cuerpo\nRespuesta a comandos verbales\nBuen pronóstico neurológico",
+      "Urgencia": "medio",
+      "Creado vía": "Sistema",
+      "Tags": [
+        "UCI",
+        "Neurología"
+      ],
+      "Días Desde Evento": 3
+    }
+  },
+  {
+    "id": "recoVpgkuKrr9g4mJ",
+    "createdTime": "2025-09-16T10:10:28.000Z",
+    "fields": {
+      "Fecha": "2025-09-14",
+      "Hora": "18:02",
+      "Título": "Radiografía de abdomen simple (AP)",
+      "Descripción": "Informe de radiografía: Riñones de forma, ubicación y tamaño normal. Sombra hepática y silueta de los músculos ileopsoas normales. Gases intestinales con distribución normal. Sonda nasogástrica bien posicionada. Estructuras óseas no modificadas. No se aprecia imágenes densas de cálculos opacos a rayos, ni calcificaciones abdominales.",
+      "Días Desde Evento": 2
+    }
+  },
+  {
+    "id": "recorj5eBpxXazZSF",
+    "createdTime": "2025-09-16T02:41:00.000Z",
+    "fields": {
+      "Fecha": "2025-09-09",
+      "Hora": "10:52",
+      "Tipo": "Síntoma",
+      "Título": "TCE SEVERO - Caída con traumatismo",
+      "Descripción": "Hematoma intracerebral 20cm³ + subdural izquierdo. Ambulancia tardó 40 min",
+      "Urgencia": "crítico",
+      "Creado vía": "Sistema",
+      "Tags": [
+        "TCE",
+        "Neurología",
+        "UCI"
+      ],
+      "Días Desde Evento": 7
+    }
+  },
+  {
+    "id": "recp98JjmzgpYeZbz",
+    "createdTime": "2025-09-16T02:39:40.000Z",
+    "fields": {
+      "Fecha": "2024-10-03",
+      "Hora": "15:00",
+      "Tipo": "Diálisis",
+      "Título": "INICIO HEMODIÁLISIS",
+      "Descripción": "Primera sesión de diálisis, programa 3x/semana",
+      "Urgencia": "alto",
+      "Creado vía": "Sistema",
+      "Tags": [
+        "IRC",
+        "Diálisis"
+      ],
+      "Días Desde Evento": 348
+    }
+  },
+  {
+    "id": "recpdViq6naJPdm1Q",
+    "createdTime": "2025-09-16T02:55:39.000Z",
+    "fields": {
+      "Fecha": "2025-09-09",
+      "Hora": "10:52",
+      "Tipo": "Síntoma",
+      "Título": "⚠️ TCE SEVERO - Traumatismo craneal",
+      "Descripción": "🚨 EVENTO CRÍTICO\nCaída con traumatismo craneoencefálico severo\nHematoma intracerebral: 20 cm³\nHematoma subdural izquierdo\nAmbulancia tardó 40 minutos\nTraslado: Sanatorio La Costa",
+      "Urgencia": "crítico",
+      "Creado vía": "Sistema",
+      "Tags": [
+        "TCE",
+        "Neurología",
+        "UCI"
+      ],
+      "Días Desde Evento": 7
+    }
+  },
+  {
+    "id": "recpwz5MC6voS1cjT",
+    "createdTime": "2025-09-16T05:37:29.000Z",
+    "fields": {
+      "Días Desde Evento": {
+        "specialValue": "NaN"
+      }
+    }
+  },
+  {
+    "id": "recv0zBg0L8Jkso7P",
+    "createdTime": "2025-09-16T06:09:46.000Z",
+    "fields": {
+      "Fecha": "2025-09-14",
+      "Hora": "08:12",
+      "Título": "Radiografía de Tórax (AP)",
+      "Descripción": "Informe de radiografía de tórax: Mediastino centrado, sombra cardiaca con dimensiones normales, hilios simétricos, campos pulmonares sin imágenes de procesos evolutivos, senos costofrénicos libres, presencia de tubo endotraqueal y de vía central.",
+      "Días Desde Evento": 2
+    }
+  },
+  {
+    "id": "recxxNvTovJIoFOiY",
+    "createdTime": "2025-09-16T06:11:21.000Z",
+    "fields": {
+      "Fecha": "2025-09-14",
+      "Hora": "18:02",
+      "Título": "Radiografía Abdominal",
+      "Descripción": "Informe de radiografía abdominal (AP) realizado el 14-09-25. Hallazgos: Riñones de forma, ubicación y tamaño normales. Sombra hepática normal. Distribución normal de gases intestinales. Sonda nasogástrica bien posicionada. Estructuras óseas no modificadas. No se observan imágenes densas de piedras opacas ni calcificaciones abdominales.",
+      "Días Desde Evento": 2
+    }
+  }
+]

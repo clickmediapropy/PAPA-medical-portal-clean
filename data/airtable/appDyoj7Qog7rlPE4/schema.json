@@ -1,0 +1,1151 @@
+{
+  "baseId": "appDyoj7Qog7rlPE4",
+  "tables": [
+    {
+      "id": "tblxyRE7kjHhelK0C",
+      "name": "Actualizaciones Diarias",
+      "primaryFieldId": "fldpBAEYrCgEeg04J",
+      "fields": [
+        {
+          "type": "singleLineText",
+          "id": "fldpBAEYrCgEeg04J",
+          "name": "Name"
+        },
+        {
+          "type": "date",
+          "options": {
+            "dateFormat": {
+              "name": "local",
+              "format": "l"
+            }
+          },
+          "id": "fld6vLbatyVZ4KuXh",
+          "name": "Fecha"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldrMSquvCvs8u5QN",
+          "name": "Resumen Diario"
+        },
+        {
+          "type": "singleSelect",
+          "options": {
+            "choices": [
+              {
+                "id": "selGG7IByBZ3Mo6xH",
+                "name": "Bueno",
+                "color": "blueLight2"
+              },
+              {
+                "id": "selrQz1mnI0Zvx3NM",
+                "name": "Regular",
+                "color": "cyanLight2"
+              },
+              {
+                "id": "sel9fijFvcndBmOE8",
+                "name": "Malo",
+                "color": "tealLight2"
+              }
+            ]
+          },
+          "id": "fldMriFUOxpfS3IHW",
+          "name": "Estado General"
+        },
+        {
+          "type": "multipleAttachments",
+          "options": {
+            "isReversed": true
+          },
+          "id": "fldUpgPpFyzheOzlO",
+          "name": "Fotos del Día"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldKb90UKJ3HOdT9i",
+          "name": "Evento de Salud Relacionado"
+        }
+      ],
+      "views": [
+        {
+          "id": "viwHgP2jYVBGtwiUn",
+          "name": "Grid view",
+          "type": "grid"
+        },
+        {
+          "id": "viwWjgnLACQSd1tkQ",
+          "name": "Calendario",
+          "type": "calendar"
+        }
+      ]
+    },
+    {
+      "id": "tblFaflNFwUHf18am",
+      "name": "Eventos Médicos",
+      "description": "Tabla principal de eventos médicos con categorización completa",
+      "primaryFieldId": "fldfz1tssBkyirATn",
+      "fields": [
+        {
+          "type": "date",
+          "options": {
+            "dateFormat": {
+              "name": "iso",
+              "format": "YYYY-MM-DD"
+            }
+          },
+          "id": "fldfz1tssBkyirATn",
+          "name": "Fecha"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fld6pKicSF5Clj1HI",
+          "name": "Hora"
+        },
+        {
+          "type": "singleSelect",
+          "options": {
+            "choices": [
+              {
+                "id": "selWSi1uJs6zqu3Wa",
+                "name": "Laboratorio",
+                "color": "blueBright"
+              },
+              {
+                "id": "selbAt95pRQ0XQAje",
+                "name": "Consulta",
+                "color": "greenBright"
+              },
+              {
+                "id": "self9lJWvoeBu3nEz",
+                "name": "Procedimiento",
+                "color": "purpleBright"
+              },
+              {
+                "id": "sel6AtxtzXILnR3jy",
+                "name": "Síntoma",
+                "color": "orangeBright"
+              },
+              {
+                "id": "selLcNeL9QlIV3y6c",
+                "name": "Medicamento",
+                "color": "cyanBright"
+              },
+              {
+                "id": "selr9kwX0cahhGCDV",
+                "name": "Diálisis",
+                "color": "redBright"
+              },
+              {
+                "id": "seldVKECqTllz5heP",
+                "name": "Cirugía",
+                "color": "pinkBright"
+              }
+            ]
+          },
+          "id": "fldTEZgin44aqPJlV",
+          "name": "Tipo"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldpbTAPCZA1S6a6e",
+          "name": "Título"
+        },
+        {
+          "type": "multilineText",
+          "id": "fld1WdTDeVxeSMVQQ",
+          "name": "Descripción"
+        },
+        {
+          "type": "singleSelect",
+          "options": {
+            "choices": [
+              {
+                "id": "sel1M7fTRUdGNluy4",
+                "name": "crítico",
+                "color": "redBright"
+              },
+              {
+                "id": "selyIVBp3GzMEAO4g",
+                "name": "alto",
+                "color": "orangeBright"
+              },
+              {
+                "id": "selujEnde7s1gu5oz",
+                "name": "medio",
+                "color": "yellowBright"
+              },
+              {
+                "id": "selPPFj5wShbPEC9d",
+                "name": "bajo",
+                "color": "greenBright"
+              }
+            ]
+          },
+          "id": "fldJguhys9nxKskbF",
+          "name": "Urgencia"
+        },
+        {
+          "type": "multipleAttachments",
+          "options": {
+            "isReversed": false
+          },
+          "id": "fld699qHXhkr4M5jP",
+          "name": "Archivos"
+        },
+        {
+          "type": "singleSelect",
+          "options": {
+            "choices": [
+              {
+                "id": "selwOSYSBsAhlUc2F",
+                "name": "WhatsApp",
+                "color": "greenBright"
+              },
+              {
+                "id": "sel9UY1tDaoXqg12s",
+                "name": "Manual",
+                "color": "blueBright"
+              },
+              {
+                "id": "selRsdHf9cYCdEFTd",
+                "name": "Sistema",
+                "color": "grayBright"
+              }
+            ]
+          },
+          "id": "fld7l30D3mK38B4T3",
+          "name": "Creado vía"
+        },
+        {
+          "type": "multipleSelects",
+          "options": {
+            "choices": [
+              {
+                "id": "selXbq609HiX8lEnQ",
+                "name": "IRC",
+                "color": "redBright"
+              },
+              {
+                "id": "sel0H5kT4V4DKNQ9T",
+                "name": "TCE",
+                "color": "purpleBright"
+              },
+              {
+                "id": "selqmjai4sEtftfoL",
+                "name": "UCI",
+                "color": "orangeBright"
+              },
+              {
+                "id": "selNwIYFJ4dK8bk92",
+                "name": "Diálisis",
+                "color": "blueBright"
+              },
+              {
+                "id": "selREfkskFegbel9Z",
+                "name": "Neurología",
+                "color": "cyanBright"
+              },
+              {
+                "id": "seled34JcCxoWZNQS",
+                "name": "Nefrología",
+                "color": "greenBright"
+              }
+            ]
+          },
+          "id": "fldsTPrznQ4n2UyKu",
+          "name": "Tags"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tblKF9NxoEB4Mzr3G",
+            "isReversed": false,
+            "prefersSingleRecordLink": false,
+            "inverseLinkFieldId": "fldv2zvBqnCwjQu3P"
+          },
+          "id": "fldL1uT9lmQ4thNEx",
+          "name": "Institución"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tblzlZFtzDYhmL12A",
+            "isReversed": false,
+            "prefersSingleRecordLink": false,
+            "inverseLinkFieldId": "fldQQRhe9NunRWPtx"
+          },
+          "id": "fldDz3ZpjGsJqSgxC",
+          "name": "Médico"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tblzchkqYBUtkWEHY",
+            "isReversed": false,
+            "prefersSingleRecordLink": true,
+            "inverseLinkFieldId": "fldhUQ1OQyyIw4EWi"
+          },
+          "id": "fldlHcHxERIekzro3",
+          "name": "Valores Lab"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tblbhAOs6LsFcFeFN",
+            "isReversed": false,
+            "prefersSingleRecordLink": false,
+            "inverseLinkFieldId": "fld3YdNA8x9zoL64W"
+          },
+          "id": "fldvfvcuK7Y0O7EIW",
+          "name": "Medicamentos Relacionados"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tblvagJrLVHfwOb5R",
+            "isReversed": false,
+            "prefersSingleRecordLink": true,
+            "inverseLinkFieldId": "fldRsiRVAJetcF63I"
+          },
+          "id": "fld3oEExsdCkgbhLn",
+          "name": "Sesión Diálisis"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tblzchkqYBUtkWEHY",
+            "isReversed": false,
+            "prefersSingleRecordLink": false,
+            "inverseLinkFieldId": "fldnRSdoxlNYDRQlF"
+          },
+          "id": "fldEKb9KfhGT826Ka",
+          "name": "Laboratorios"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tblbhAOs6LsFcFeFN",
+            "isReversed": false,
+            "prefersSingleRecordLink": false,
+            "inverseLinkFieldId": "fldFObomzVkxy4BX8"
+          },
+          "id": "fldr7edKn8byoI8ON",
+          "name": "Medicamentos"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tblvagJrLVHfwOb5R",
+            "isReversed": false,
+            "prefersSingleRecordLink": false,
+            "inverseLinkFieldId": "fldDvR7MsHWtVyoZh"
+          },
+          "id": "fld7zvc0wXaSOsCpd",
+          "name": "Diálisis"
+        },
+        {
+          "type": "formula",
+          "options": {
+            "isValid": true,
+            "formula": "DATETIME_DIFF(NOW(), {fldfz1tssBkyirATn}, 'days')",
+            "referencedFieldIds": [
+              "fldfz1tssBkyirATn"
+            ],
+            "result": {
+              "type": "number",
+              "options": {
+                "precision": 0
+              }
+            }
+          },
+          "id": "fldLBncCGQ38iDidy",
+          "name": "Días Desde Evento"
+        },
+        {
+          "type": "formula",
+          "options": {
+            "isValid": true,
+            "formula": "IF(AND({fldJguhys9nxKskbF} = \"crítico\", {fldLBncCGQ38iDidy} < 7), \"⚠️ SÍ\", \"\")",
+            "referencedFieldIds": [
+              "fldJguhys9nxKskbF",
+              "fldLBncCGQ38iDidy"
+            ],
+            "result": {
+              "type": "singleLineText"
+            }
+          },
+          "id": "fld8X4g8bQDyLsJ9i",
+          "name": "Requiere Seguimiento"
+        }
+      ],
+      "views": [
+        {
+          "id": "viwxFF795wJfEzTDF",
+          "name": "Grid view",
+          "type": "grid"
+        }
+      ]
+    },
+    {
+      "id": "tblzchkqYBUtkWEHY",
+      "name": "Laboratorios",
+      "description": "Valores de laboratorio con seguimiento de tendencias",
+      "primaryFieldId": "fldkfm9Wzv4GyVLeZ",
+      "fields": [
+        {
+          "type": "date",
+          "options": {
+            "dateFormat": {
+              "name": "iso",
+              "format": "YYYY-MM-DD"
+            }
+          },
+          "id": "fldkfm9Wzv4GyVLeZ",
+          "name": "Fecha"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldCmUWhNtIKH6ZnR",
+          "name": "Hora"
+        },
+        {
+          "type": "number",
+          "options": {
+            "precision": 1
+          },
+          "id": "fldnSCidNUzzXR03W",
+          "name": "Hemoglobina"
+        },
+        {
+          "type": "number",
+          "options": {
+            "precision": 1
+          },
+          "id": "fldkARn4Wt5polsEY",
+          "name": "Hematocrito"
+        },
+        {
+          "type": "number",
+          "options": {
+            "precision": 1
+          },
+          "id": "fldvWrKcJszi0lVCe",
+          "name": "Creatinina"
+        },
+        {
+          "type": "number",
+          "options": {
+            "precision": 0
+          },
+          "id": "fldQYF49qo4rJNYfq",
+          "name": "Urea"
+        },
+        {
+          "type": "number",
+          "options": {
+            "precision": 0
+          },
+          "id": "fldtse5yodA5BInQI",
+          "name": "Glucosa"
+        },
+        {
+          "type": "number",
+          "options": {
+            "precision": 0
+          },
+          "id": "fld4gEomhP59OYcxR",
+          "name": "Sodio"
+        },
+        {
+          "type": "number",
+          "options": {
+            "precision": 1
+          },
+          "id": "fldrH5HVRnVyXKGBk",
+          "name": "Potasio"
+        },
+        {
+          "type": "number",
+          "options": {
+            "precision": 2
+          },
+          "id": "fldLedy1V3gw9BaXp",
+          "name": "TSH"
+        },
+        {
+          "type": "number",
+          "options": {
+            "precision": 0
+          },
+          "id": "fldm2TwXvLz8uaArV",
+          "name": "Plaquetas"
+        },
+        {
+          "type": "number",
+          "options": {
+            "precision": 0
+          },
+          "id": "fldwaaMDJJAmCdLBJ",
+          "name": "Leucocitos"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldFPw2KOpJfRpeDG",
+          "name": "Notas"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tblFaflNFwUHf18am",
+            "isReversed": false,
+            "prefersSingleRecordLink": false,
+            "inverseLinkFieldId": "fldlHcHxERIekzro3"
+          },
+          "id": "fldhUQ1OQyyIw4EWi",
+          "name": "Eventos Médicos"
+        },
+        {
+          "type": "formula",
+          "options": {
+            "isValid": true,
+            "formula": "IF({fldvWrKcJszi0lVCe} > 10, \"⚠️ CRÍTICO\", IF({fldvWrKcJszi0lVCe} > 5, \"⚠️ Severo\", IF({fldvWrKcJszi0lVCe} > 1.3, \"Elevado\", \"Normal\")))",
+            "referencedFieldIds": [
+              "fldvWrKcJszi0lVCe"
+            ],
+            "result": {
+              "type": "singleLineText"
+            }
+          },
+          "id": "fldzFlFepMwh0cpPg",
+          "name": "Estado Renal"
+        },
+        {
+          "type": "formula",
+          "options": {
+            "isValid": true,
+            "formula": "IF({fldnSCidNUzzXR03W} < 8,\n   \"🔴 Crítica\",\n   IF({fldnSCidNUzzXR03W} < 10,\n      \"🟡 Moderada\",\n      \"✅ Normal\"\n   )\n)",
+            "referencedFieldIds": [
+              "fldnSCidNUzzXR03W"
+            ],
+            "result": {
+              "type": "singleLineText"
+            }
+          },
+          "id": "fldMdMhYbdf2mTtLT",
+          "name": "Alerta Anemia"
+        },
+        {
+          "type": "formula",
+          "options": {
+            "isValid": true,
+            "formula": "IF(OR({fldvWrKcJszi0lVCe} > 10, {fldnSCidNUzzXR03W} < 8, {fldrH5HVRnVyXKGBk} > 6, {fldLedy1V3gw9BaXp} > 50), \"⚠️ VALORES CRÍTICOS\", \"\")",
+            "referencedFieldIds": [
+              "fldvWrKcJszi0lVCe",
+              "fldnSCidNUzzXR03W",
+              "fldrH5HVRnVyXKGBk",
+              "fldLedy1V3gw9BaXp"
+            ],
+            "result": {
+              "type": "singleLineText"
+            }
+          },
+          "id": "fldLrk28qdnJ1zpgm",
+          "name": "Alerta General"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tblFaflNFwUHf18am",
+            "isReversed": false,
+            "prefersSingleRecordLink": true,
+            "inverseLinkFieldId": "fldEKb9KfhGT826Ka"
+          },
+          "id": "fldnRSdoxlNYDRQlF",
+          "name": "Evento Médico"
+        }
+      ],
+      "views": [
+        {
+          "id": "viwua24Q3kYgcs3aJ",
+          "name": "Grid view",
+          "type": "grid"
+        }
+      ]
+    },
+    {
+      "id": "tblbhAOs6LsFcFeFN",
+      "name": "Medicamentos",
+      "description": "Registro de medicamentos con dosificación y cambios",
+      "primaryFieldId": "fld09o9uz3KKQv0Vu",
+      "fields": [
+        {
+          "type": "singleLineText",
+          "id": "fld09o9uz3KKQv0Vu",
+          "name": "Medicamento"
+        },
+        {
+          "type": "singleSelect",
+          "options": {
+            "choices": [
+              {
+                "id": "selVoOBBhvWR2DqwG",
+                "name": "Sedación",
+                "color": "purpleBright"
+              },
+              {
+                "id": "sel2qLm3HYsA5EomW",
+                "name": "Analgesia",
+                "color": "blueBright"
+              },
+              {
+                "id": "seliWfijNmuOT4gL8",
+                "name": "Antibiótico",
+                "color": "greenBright"
+              },
+              {
+                "id": "selADJHq1ruqax0r4",
+                "name": "Vasoactivo",
+                "color": "redBright"
+              },
+              {
+                "id": "selyuRl6Su3x5gMqk",
+                "name": "IRC",
+                "color": "orangeBright"
+              },
+              {
+                "id": "selEAEKEF2nusTjLR",
+                "name": "Otro",
+                "color": "grayBright"
+              }
+            ]
+          },
+          "id": "fldcnoKgX5G9qWEQr",
+          "name": "Tipo"
+        },
+        {
+          "type": "date",
+          "options": {
+            "dateFormat": {
+              "name": "iso",
+              "format": "YYYY-MM-DD"
+            }
+          },
+          "id": "fldV6mGY7MOTFM6dK",
+          "name": "Fecha Inicio"
+        },
+        {
+          "type": "date",
+          "options": {
+            "dateFormat": {
+              "name": "iso",
+              "format": "YYYY-MM-DD"
+            }
+          },
+          "id": "fldhDnukEAW0h8lvf",
+          "name": "Fecha Fin"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldOuiMIeL9P0xuAD",
+          "name": "Dosis Inicial"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldhVAFulXBjRpcZj",
+          "name": "Dosis Actual"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldx5kuCAwmeaRTca",
+          "name": "Frecuencia"
+        },
+        {
+          "type": "singleSelect",
+          "options": {
+            "choices": [
+              {
+                "id": "selJ1jsmo26XU1MA9",
+                "name": "IV",
+                "color": "redBright"
+              },
+              {
+                "id": "selUHJ9mMHECpp8oA",
+                "name": "Oral",
+                "color": "greenBright"
+              },
+              {
+                "id": "selXp8jUJBKtmJm0t",
+                "name": "SC",
+                "color": "blueBright"
+              },
+              {
+                "id": "sel0S9FUUfPgt6EMJ",
+                "name": "IM",
+                "color": "purpleBright"
+              }
+            ]
+          },
+          "id": "fld5g8ktRNxYFSJa1",
+          "name": "Vía"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldLe1KpQ50zsEUQC",
+          "name": "Notas"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tblFaflNFwUHf18am",
+            "isReversed": false,
+            "prefersSingleRecordLink": false,
+            "inverseLinkFieldId": "fldvfvcuK7Y0O7EIW"
+          },
+          "id": "fld3YdNA8x9zoL64W",
+          "name": "Eventos Médicos"
+        },
+        {
+          "type": "formula",
+          "options": {
+            "isValid": true,
+            "formula": "IF({fldhDnukEAW0h8lvf}, \"❌ Suspendido\", \"✅ Activo\")",
+            "referencedFieldIds": [
+              "fldhDnukEAW0h8lvf"
+            ],
+            "result": {
+              "type": "singleLineText"
+            }
+          },
+          "id": "fldZ7DB86QK97Kbvq",
+          "name": "Estado"
+        },
+        {
+          "type": "formula",
+          "options": {
+            "isValid": true,
+            "formula": "IF({fldV6mGY7MOTFM6dK},\n  IF({fldhDnukEAW0h8lvf},\n    DATETIME_DIFF({fldhDnukEAW0h8lvf}, {fldV6mGY7MOTFM6dK}, \"days\"),\n    DATETIME_DIFF(NOW(), {fldV6mGY7MOTFM6dK}, \"days\")\n  ),\n  BLANK()\n)",
+            "referencedFieldIds": [
+              "fldV6mGY7MOTFM6dK",
+              "fldhDnukEAW0h8lvf"
+            ],
+            "result": {
+              "type": "number",
+              "options": {
+                "precision": 0
+              }
+            }
+          },
+          "id": "fldxrnoxF4bMC36XO",
+          "name": "Días Activo"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tblFaflNFwUHf18am",
+            "isReversed": false,
+            "prefersSingleRecordLink": false,
+            "inverseLinkFieldId": "fldr7edKn8byoI8ON"
+          },
+          "id": "fldFObomzVkxy4BX8",
+          "name": "Eventos"
+        }
+      ],
+      "views": [
+        {
+          "id": "viwHdvHNuy0bjlESy",
+          "name": "Grid view",
+          "type": "grid"
+        }
+      ]
+    },
+    {
+      "id": "tblvagJrLVHfwOb5R",
+      "name": "Diálisis",
+      "description": "Sesiones de diálisis con parámetros específicos",
+      "primaryFieldId": "fldXF7BXF81k11QWj",
+      "fields": [
+        {
+          "type": "date",
+          "options": {
+            "dateFormat": {
+              "name": "iso",
+              "format": "YYYY-MM-DD"
+            }
+          },
+          "id": "fldXF7BXF81k11QWj",
+          "name": "Fecha"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldp8TJGNdLS880B7",
+          "name": "Hora Inicio"
+        },
+        {
+          "type": "duration",
+          "options": {
+            "durationFormat": "h:mm"
+          },
+          "id": "fldWlwenQXL2zuNaA",
+          "name": "Duración"
+        },
+        {
+          "type": "singleSelect",
+          "options": {
+            "choices": [
+              {
+                "id": "selmWah1AMqMivVlC",
+                "name": "Hemodiálisis",
+                "color": "blueBright"
+              },
+              {
+                "id": "selAVNPwx16K2coKp",
+                "name": "Peritoneal",
+                "color": "greenBright"
+              }
+            ]
+          },
+          "id": "fldNFvOXSPaJ0dkjA",
+          "name": "Tipo"
+        },
+        {
+          "type": "singleSelect",
+          "options": {
+            "choices": [
+              {
+                "id": "selPxZmMrE0SddYqN",
+                "name": "Fístula AV",
+                "color": "greenBright"
+              },
+              {
+                "id": "selyMj4FVhbvW8VXk",
+                "name": "Catéter",
+                "color": "orangeBright"
+              }
+            ]
+          },
+          "id": "fldcgws18FWx2a6xv",
+          "name": "Acceso"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldXOAy2bCLnje01c",
+          "name": "Complicaciones"
+        },
+        {
+          "type": "number",
+          "options": {
+            "precision": 0
+          },
+          "id": "fldTS1gXQ8UvSwBK8",
+          "name": "Ultrafiltración"
+        },
+        {
+          "type": "number",
+          "options": {
+            "precision": 1
+          },
+          "id": "fldaLI6fGnUgaqQhx",
+          "name": "Peso Pre"
+        },
+        {
+          "type": "number",
+          "options": {
+            "precision": 1
+          },
+          "id": "fldBJMUTar6Ztjg2K",
+          "name": "Peso Post"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tblFaflNFwUHf18am",
+            "isReversed": false,
+            "prefersSingleRecordLink": false,
+            "inverseLinkFieldId": "fld3oEExsdCkgbhLn"
+          },
+          "id": "fldRsiRVAJetcF63I",
+          "name": "Eventos Médicos"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tblFaflNFwUHf18am",
+            "isReversed": false,
+            "prefersSingleRecordLink": true,
+            "inverseLinkFieldId": "fld7zvc0wXaSOsCpd"
+          },
+          "id": "fldDvR7MsHWtVyoZh",
+          "name": "Evento Médico"
+        }
+      ],
+      "views": [
+        {
+          "id": "viwH72cmEancnVe6u",
+          "name": "Grid view",
+          "type": "grid"
+        }
+      ]
+    },
+    {
+      "id": "tblzlZFtzDYhmL12A",
+      "name": "Médicos",
+      "description": "Profesionales médicos involucrados",
+      "primaryFieldId": "fldfIsOaVWkgzrmCL",
+      "fields": [
+        {
+          "type": "singleLineText",
+          "id": "fldfIsOaVWkgzrmCL",
+          "name": "Nombre"
+        },
+        {
+          "type": "singleSelect",
+          "options": {
+            "choices": [
+              {
+                "id": "selTNwQKsH6c1rTfr",
+                "name": "Nefrología",
+                "color": "greenBright"
+              },
+              {
+                "id": "selSJEiqhKsPRqzUw",
+                "name": "Neurología",
+                "color": "purpleBright"
+              },
+              {
+                "id": "selvjBJToAE2WFdZ4",
+                "name": "UCI",
+                "color": "redBright"
+              },
+              {
+                "id": "selUYOvzmXG1B5wnm",
+                "name": "Cirugía",
+                "color": "orangeBright"
+              },
+              {
+                "id": "selqmWOm3X3kInR3j",
+                "name": "Medicina Interna",
+                "color": "blueBright"
+              }
+            ]
+          },
+          "id": "fldzCteTaN9fneSca",
+          "name": "Especialidad"
+        },
+        {
+          "type": "phoneNumber",
+          "id": "fldrCRRObQxXxjP6r",
+          "name": "Teléfono"
+        },
+        {
+          "type": "email",
+          "id": "fldAWr0vELA6hIeky",
+          "name": "Email"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldUqPmuDvM4jGvqZ",
+          "name": "Notas"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tblFaflNFwUHf18am",
+            "isReversed": false,
+            "prefersSingleRecordLink": false,
+            "inverseLinkFieldId": "fldDz3ZpjGsJqSgxC"
+          },
+          "id": "fldQQRhe9NunRWPtx",
+          "name": "Eventos Médicos"
+        },
+        {
+          "type": "count",
+          "options": {
+            "isValid": true,
+            "recordLinkFieldId": "fldQQRhe9NunRWPtx"
+          },
+          "id": "fldoviB3AChyoVDLv",
+          "name": "Total Eventos"
+        }
+      ],
+      "views": [
+        {
+          "id": "viw7oxHw7diJpwFaK",
+          "name": "Grid view",
+          "type": "grid"
+        }
+      ]
+    },
+    {
+      "id": "tblKF9NxoEB4Mzr3G",
+      "name": "Instituciones",
+      "description": "Hospitales y centros médicos",
+      "primaryFieldId": "fld4N8YMDXi2Zw8bX",
+      "fields": [
+        {
+          "type": "singleLineText",
+          "id": "fld4N8YMDXi2Zw8bX",
+          "name": "Nombre"
+        },
+        {
+          "type": "singleSelect",
+          "options": {
+            "choices": [
+              {
+                "id": "sel6ZILqDuGxu8dlM",
+                "name": "Hospital",
+                "color": "redBright"
+              },
+              {
+                "id": "selAGPPAphS55goI2",
+                "name": "Sanatorio",
+                "color": "blueBright"
+              },
+              {
+                "id": "selZbZ39hjCl0vhUz",
+                "name": "Laboratorio",
+                "color": "greenBright"
+              },
+              {
+                "id": "selaaKbUAB5kaW0Nn",
+                "name": "Consultorio",
+                "color": "purpleBright"
+              }
+            ]
+          },
+          "id": "fldS33iYEgif3eMeo",
+          "name": "Tipo"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldCm2jn6F4P6RCDx",
+          "name": "Dirección"
+        },
+        {
+          "type": "phoneNumber",
+          "id": "fldG2FgmiwIT4zrvd",
+          "name": "Teléfono"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tblFaflNFwUHf18am",
+            "isReversed": false,
+            "prefersSingleRecordLink": false,
+            "inverseLinkFieldId": "fldL1uT9lmQ4thNEx"
+          },
+          "id": "fldv2zvBqnCwjQu3P",
+          "name": "Eventos Médicos"
+        },
+        {
+          "type": "count",
+          "options": {
+            "isValid": true,
+            "recordLinkFieldId": "fldv2zvBqnCwjQu3P"
+          },
+          "id": "fldjbw8RYOdg6UGbu",
+          "name": "Total Eventos"
+        }
+      ],
+      "views": [
+        {
+          "id": "viwWVs6od7H9vYK5w",
+          "name": "Grid view",
+          "type": "grid"
+        }
+      ]
+    },
+    {
+      "id": "tblQahASwhGiuoQTY",
+      "name": "Resumen Diario",
+      "description": "Resúmenes diarios generados por IA",
+      "primaryFieldId": "fldR8VUZ0hwFQIk5m",
+      "fields": [
+        {
+          "type": "date",
+          "options": {
+            "dateFormat": {
+              "name": "iso",
+              "format": "YYYY-MM-DD"
+            }
+          },
+          "id": "fldR8VUZ0hwFQIk5m",
+          "name": "Fecha"
+        },
+        {
+          "type": "singleSelect",
+          "options": {
+            "choices": [
+              {
+                "id": "seleSJBsX3vqJOkzg",
+                "name": "Crítico",
+                "color": "redBright"
+              },
+              {
+                "id": "sel6p48kwmzfuKGcJ",
+                "name": "Estable",
+                "color": "greenBright"
+              },
+              {
+                "id": "sel0TddCk8TbPIEjJ",
+                "name": "Mejorando",
+                "color": "blueBright"
+              },
+              {
+                "id": "selpfAqF0XxuPNNtl",
+                "name": "Deterioro",
+                "color": "orangeBright"
+              }
+            ]
+          },
+          "id": "fldInwsXTgVPDEWy0",
+          "name": "Estado General"
+        },
+        {
+          "type": "multilineText",
+          "id": "fld4FAGgwTfUxI39o",
+          "name": "Resumen"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldzmE37GHV5TqfAJ",
+          "name": "Valores Críticos"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldkynY2F4aMDs590",
+          "name": "Próximas 24h"
+        },
+        {
+          "type": "singleSelect",
+          "options": {
+            "choices": [
+              {
+                "id": "seldCM09jW2gfElUQ",
+                "name": "n8n",
+                "color": "orangeBright"
+              },
+              {
+                "id": "selEJDlHwDztiUtC3",
+                "name": "Manual",
+                "color": "blueBright"
+              },
+              {
+                "id": "selN68bqAYbmj3J9u",
+                "name": "Sistema",
+                "color": "grayBright"
+              }
+            ]
+          },
+          "id": "fldjaseBnzGZ7NrcY",
+          "name": "Generado Por"
+        }
+      ],
+      "views": [
+        {
+          "id": "viw5J0YZkYT4TTCW9",
+          "name": "Grid view",
+          "type": "grid"
+        }
+      ]
+    }
+  ]
+}
