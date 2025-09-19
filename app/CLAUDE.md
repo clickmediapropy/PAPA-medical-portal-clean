@@ -65,3 +65,4 @@ Required in `.env.local`:
 - Authentication is temporarily disabled in middleware (`/src/middleware.ts`) to avoid Next.js 15 header compatibility issues
 - Dashboard layout uses demo user (`usuario@demo.com`) until auth is re-enabled
 - Main features include patient management, laboratory results, care plans, timeline, medications, and document upload
+- no need to deploy on vercel if you already deploy on github. vercel picks up from gh automatically

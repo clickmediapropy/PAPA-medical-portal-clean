@@ -6,7 +6,6 @@ import { Menu, X } from 'lucide-react';
 
 const navItems = [
   { href: '/biomarkers', label: 'Biomarcadores' },
-  { href: '/care-plan', label: 'Plan de Cuidados' },
   { href: '/timeline', label: 'Cronología' },
 ];
 

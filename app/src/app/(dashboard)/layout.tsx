@@ -4,7 +4,6 @@ import { MobileNav } from '@/components/layout/mobile-nav';
 
 const navItems = [
   { href: '/biomarkers', label: 'Biomarcadores' },
-  { href: '/care-plan', label: 'Plan de Cuidados' },
   { href: '/timeline', label: 'Cronología' },
 ];
 
